@@ -37,14 +37,16 @@ const Products = () => {
   }, [sortOption, products]);
 
   useEffect(() => {
-    const handleResize = () => {
-      setIsMobileView(isMobile());
-    };
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+    if (typeof window !== "undefined") {
+      const handleResize = () => {
+        setIsMobileView(isMobile());
+      };
+      handleResize();
+      window.addEventListener("resize", handleResize);
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }
   }, []);
 
   const handleSortChange = (value) => {
