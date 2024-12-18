@@ -172,8 +172,3 @@ El sistema de diseño utilizado por Creativedog Agency es:
 - **Formateo de fechas:** https://momentjs.com/
 - **Input file formateado:**  https://www.npmjs.com/package/react-use-file-upload
 - **Validación de formularios:**  https://formik.org/
-
-<aside>
-🤔 Si tenés alguna duda, comunicate con RRHH a [rrhh@creativedog.agency](https://www.notion.so/Creativedog-Agency-Pruebas-T-cnicas-b18ecc9d81924377af21df72fd2884f1?pvs=21)
-
-</aside>
