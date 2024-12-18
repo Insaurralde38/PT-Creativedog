@@ -824,7 +824,7 @@
 }
 
 .favouriteIconPulse {
-  animation: heartbeat var(--transition-ease)-in-out;
+  animation: heartbeat 0.3s ease-in-out;
 }
 
 .productImageWrapper {
