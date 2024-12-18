@@ -63,14 +63,6 @@ Creativedog Agency trabaja con la estrategia de repositorios [Gitflow](https://w
 
 Como paso final se pide generar el *merge request* (o *pull request*, dependiendo el repositorio elegido) documentando brevemente lo desarrollado y comentarios extras de creerlos necesario.
 
-De ser necesario autenticación para poder ver el repositorio o sus *merge request*, estos son los usuarios a agregar:
-
-| Nombre | email | Requerido |
-| --- | --- | --- |
-| Javier Sampietro | javier@creativedog.agency | Siempre |
-| Marina Ziembar | marina@creativedog.agency | Para pruebas de App Team |
-| Tatiana Gonzalez | tatiana@creativedog.agency | Para pruebas de Web Team |
-
 ## Assets
 
 ---
