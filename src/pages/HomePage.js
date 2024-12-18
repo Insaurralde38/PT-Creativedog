@@ -9,16 +9,18 @@ const HomePage = () => {
   const [isBelowHero, setIsBelowHero] = useState(false);
 
   useEffect(() => {
-    const handleScroll = handleNavbarScroll({
-      setIsNavbarFixed,
-      setIsNavbarHidden,
-      setIsBelowHero,
-    });
+    if (typeof window !== "undefined") {
+      const handleScroll = handleNavbarScroll({
+        setIsNavbarFixed,
+        setIsNavbarHidden,
+        setIsBelowHero,
+      });
 
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+      window.addEventListener("scroll", handleScroll);
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
   }, []);
 
   return (
