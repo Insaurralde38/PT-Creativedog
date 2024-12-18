@@ -1,1 +1,3 @@
-export const isMobile = () => window.matchMedia("(max-width: 376px)").matches;
+export const isMobile = () => {
+  return typeof window !== "undefined" && window.innerWidth <= 768;
+};
