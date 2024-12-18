@@ -1,0 +1,1388 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&family=Barlow:wght@400;600&display=swap");
+
+/* ------------------------------------------- BUTTON ------------------------------------------ */
+
+.button {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  gap: 10px;
+  border: none;
+  transition: background var(--transition-ease), color var(--transition-ease), border-color var(--transition-ease);
+}
+
+.primary,
+.outline:hover,
+.naked:hover {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.primary:hover {
+  background: var(--primary-hover);
+}
+
+.outline {
+  background: transparent;
+  border: 1.5px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.naked {
+  background: transparent;
+  color: var(--primary-color);
+}
+
+.primary {
+  color: var(--white);
+}
+
+.primary-white,
+.outline-white:hover,
+.naked-white:hover,
+.primary-black:hover {
+  background: var(--white);
+  color: var(--ebony);
+}
+
+.primary-white:hover,
+.primary-black,
+.outline-black:hover,
+.naked-black:hover {
+  background: var(--ebony);
+  color: var(--white);
+}
+
+.outline-white {
+  border: 1.5px solid var(--white);
+  color: var(--white);
+}
+
+.naked-white {
+  background: transparent;
+  color: var(--white);
+}
+
+.outline-black {
+  border: 1.5px solid var(--ebony);
+  color: var(--ebony);
+}
+
+.naked-black {
+  background: transparent;
+  color: var(--ebony);
+}
+
+/* ------------------------------------------- NAVBAR ------------------------------------------ */
+
+.navbar {
+  width: 100%;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--white);
+  position: relative;
+  z-index: 10;
+  transition: transform var(--transition-ease)-in-out, opacity var(--transition-ease)-in-out;
+}
+
+.navbar.fixed {
+  position: fixed;
+  top: 0;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.navbar.hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbarLogo {
+  width: 185px;
+  height: 34px;
+  margin-left: 2.68%;
+}
+
+.navbarToggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.navbarMenu {
+  width: 32.26%;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding-left: 21px;
+  transition: transform var(--transition-ease)-in-out;
+}
+
+.navbarMenu a {
+  font-family: "Raleway", sans-serif;
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.navbarMenuItemIcon,
+.navbarMenuClose,
+.navbarMenuLogin {
+  display: none;
+}
+
+.navbarLogout {
+  margin-right: 2.68%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 376px) {
+  .navbar {
+    justify-content: space-around;
+    height: 48px;
+  }
+  .navbarLogo {
+    order: 2;
+    width: 130.34px;
+    height: 24px;
+    justify-self: center;
+    margin-left: 0;
+  }
+  .navbarLogo svg {
+    width: 130.34px;
+    height: 24px;
+    margin-bottom: 3px;
+  }
+  .navbarToggle {
+    height: 24px;
+    width: 24px;
+    display: block;
+    transform: translateX(-13px);
+  }
+  .navbarToggle svg {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-self: center;
+  }
+  .navbarMenu {
+    order: 1;
+    width: 88.89%;
+    height: 100vh;
+    top: 0;
+    padding-top: 74px;
+    left: -1%;
+    gap: 0;
+    position: fixed;
+    flex-direction: column;
+    z-index: 20;
+    transform: translateX(-100%);
+    background: var(--white);
+    overflow-y: hidden;
+  }
+  .navbarMenu.menuOpen {
+    transform: translateX(0);
+    transform: translateX(0);
+    overflow-y: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .navbarMenuItem {
+    width: 106%;
+    margin-left: -6%;
+    border-bottom: 1px solid var(--gray-light);
+  }
+  .navbarMenuItemIcon {
+    color: var(--gray-dark);
+  }
+  .navbarMenu a {
+    height: 76px;
+    width: 280px;
+    margin-left: -21px;
+    display: flex;
+    margin-left: 23px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbarMenuClose {
+    width: 38px;
+    height: 38px;
+    margin-right: -244px;
+    margin-bottom: 19px;
+    margin-top: -57px;
+    display: flex;
+    cursor: pointer;
+  }
+  .navbarMenuClose svg {
+    width: 38px;
+    height: 38px;
+  }
+  .navbarMenuLogin {
+    width: 290px;
+    height: 136px;
+    margin-left: -21px;
+    margin-top: 37px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .navbarMenuLoginLabel {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .navbarMenuLoginButton {
+    width: 177px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+  }
+  .navbarMenuLoginButton svg {
+    width: 24px;
+    height: 24px;
+  }
+  .navbarMenuLoginLink {
+    font-family: "Raleway", sans-serif;
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 24px;
+    cursor: pointer;
+  }
+  .navbarLogout {
+    order: 3;
+    width: 24px;
+    height: 24px;
+    transform: translateX(23px);
+  }
+  .navbarLogout svg {
+    display: flex;
+    align-self: center;
+  }
+}
+
+/* ------------------------------------------- FOOTER ------------------------------------------ */
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--gray-light);
+  padding: 20px 120px;
+  cursor: default;
+}
+
+.footerLogo {
+  width: 129.36px;
+  height: 23.82px;
+}
+
+.footerLogo svg {
+  width: 129.36px;
+  height: 23.82px;
+  margin-bottom: 4px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 8px;
+}
+
+.socialIcons a,
+.footerBottom p a {
+  cursor: default;
+}
+
+.socialIcon svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-color);
+}
+
+.footerBottom {
+  height: 79px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--gray-light);
+  cursor: default;
+}
+
+.footerBottomText {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: var(--gray-cadet);
+  margin-top: 22px;
+}
+
+.footerBottomLink {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 376px) {
+  .footerTop {
+    height: 47.82px;
+    padding: 8px 16.32px;
+  }
+  .footerLogo,
+  .footerLogo svg {
+    height: 23.82px;
+  }
+  .footerBottom {
+    height: 141.18px;
+    flex-wrap: wrap;
+  }
+  .footerBottomText {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    margin: 0 0 0 0;
+  }
+  .footerTerms {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+/* ----------------------------------------- LOGIN FORM ---------------------------------------- */
+
+.loginContainer {
+  margin-top: 16.95vh;
+  margin-bottom: 19.42vh;
+}
+
+.loginTitle {
+  width: 456px;
+  height: 40px;
+  opacity: 1;
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--primary-hover);
+}
+
+.loginSubtitle {
+  width: 462px;
+  height: 24px;
+  opacity: 1;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--gray-dark);
+}
+
+.loginLabel {
+  height: 24px;
+  opacity: 1;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--ebony);
+}
+
+.loginInput {
+  font-family: "Raleway", sans-serif;
+  color: var(--gray-dark);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  width: 100%;
+  height: 48px;
+  background: var(--white);
+  border: 1px solid var(--gray-light);
+  border-radius: 4px;
+  padding: 12px;
+  gap: 10px;
+}
+
+.eyeButton {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: none;
+  border: none;
+  z-index: 10;
+  padding: 10px;
+  border-radius: 3px;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.eyeButton:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: background-color 0.25s ease-in-out;
+}
+
+.eye {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  color: var(--gray-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eye svg {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.loginInputBox {
+  width: 460px;
+  height: 240px;
+  border-radius: 4px;
+  padding: 24px;
+  gap: 32px;
+  border: 1px rgba(0, 0, 0, 0.5);
+  background: var(--white);
+  margin-bottom: 24px;
+}
+
+.buttonSubmit {
+  font-family: "Raleway", sans-serif;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttonSubmit span {
+  margin-top: -2px;
+}
+
+.loginLink,
+.loginLink2 {
+  font-family: "Raleway", sans-serif;
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 376px) {
+  .loginContainer {
+    margin-top: 88px;
+    margin-bottom: 48px;
+  }
+  .loginTitle {
+    width: 80px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .loginSubtitle {
+    width: 272px;
+    font-size: 14px;
+  }
+  .loginInputBox {
+    width: 343px;
+    height: 216px;
+    padding: 16px;
+  }
+  .loginLinks {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .loginLink {
+    color: var(--primary-hover);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .loginLink2 {
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+}
+
+/* --------------------------------------- CATEGORY CARD --------------------------------------- */
+
+.categoryCard {
+  width: 337px;
+  height: 460px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.categoryImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.categoryContent {
+  background: linear-gradient(179.66deg, rgba(0, 0, 0, 0) 34.65%, rgba(0, 0, 0, 0.6) 99.7%);
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+  top: -200px;
+  padding: 126px 24px 0px;
+}
+
+.categoryName {
+  font-family: "Raleway", sans-serif;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 2px;
+}
+
+.productCount {
+  font-family: "Raleway", sans-serif;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 376px) {
+  .categoryCarousel {
+    width: 360px;
+    height: 383.38px;
+   
+  }
+  .categoryCard {
+    width: 280.87px;
+    height: 383.38px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .categoryImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .categoryContent {
+    background: linear-gradient(179.66deg, rgba(0, 0, 0, 0) 34.65%, rgba(0, 0, 0, 0.6) 99.7%);
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
+    top: -200px;
+    padding: 126px 24px 12px;
+  }
+  .categoryName {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 1.67px;
+  }
+  .productCount {
+    font-size: 11.67px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* ---------------------------------------- PRODUCT CARD --------------------------------------- */
+
+.productCard {
+  cursor: default;
+  position: relative;
+  width: 21.25vw;
+  height: 422px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: opacity var(--transition-ease);
+}
+
+.productImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform-origin: center;
+  background-color: var(--white);
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.productImage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  z-index: 1;
+}
+
+.productCard:hover .productImage::before {
+  animation: flash 0.1s ease;
+}
+
+.productCard:hover .productImage {
+  transform: scale(1.19) rotate(-5deg);
+  transition: transform 0.02s ease;
+}
+
+.productBanner {
+  width: 21.25vw;
+  height: 20%;
+  padding: 16px;
+  z-index: 15;
+  background-color: var(--white);
+}
+
+.productName {
+  font-family: "Raleway", sans-serif;
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.productSubCategory {
+  font-family: "Raleway", sans-serif;
+  color: var(--gray-cadet);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.productPrices {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  bottom: 20%;
+  left: 16px;
+  z-index: 10;
+  transition: transform var(--transition-ease);
+  background-color: var(--white);
+}
+
+.productCard:hover .productPrices {
+  transform: translateY(-8px);
+  transition: transform var(--transition-ease);
+}
+
+.productPrice {
+  font-family: "Barlow", sans-serif;
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.productPrice.discountedPrice {
+  color: #f18282;
+  text-decoration: line-through;
+  padding: 2px 4px 2px 8px;
+}
+
+.productPriceNew {
+  font-family: "Barlow", sans-serif;
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px 2px 4px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.productPriceOff {
+  font-family: "Barlow", sans-serif;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  background-color: var(--primary-color);
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  position: absolute;
+  margin-bottom: 60px;
+}
+
+.favouriteIcon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  background: var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.favouriteIconVector {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  transition: transform 0.1s ease, fill 0.1s ease;
+}
+
+.favouriteIconVector svg {
+  width: 18px;
+  height: 18px;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.favouriteIconPulse {
+  animation: heartbeat var(--transition-ease)-in-out;
+}
+
+.productImageWrapper {
+  position: relative;
+  width: 100%;
+  height: 80%;
+}
+
+.quickView {
+  font-family: "Barlow", sans-serif;
+  color: var(--black);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: var(--white);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  gap: 5px;
+  padding: 6px 15px;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.2s ease;
+  text-transform: uppercase;
+}
+
+.quickViewIcon {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.quickViewIcon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.productCard:hover .quickView {
+  opacity: 1;
+}
+
+@media screen and (max-width: 376px) {
+  .productCard {
+    width: 170px;
+    height: 233.17px;
+    border-radius: 8.29px;
+  }
+  .quickView,
+  .productCard:hover .productImage::before {
+    display: none;
+  }
+  .productCard:hover .productImage,
+  .productCard:hover .productPrices {
+    transform: none;
+  }
+  .productBanner {
+    width: 170px;
+    height: 63.17px;
+    padding: 12.44px 26.56px 12.44px 12.44px;
+  }
+  .productName {
+    font-size: 14.51px;
+    line-height: 14.51px;
+    margin-bottom: 8.29px;
+  }
+  .productSubCategory {
+    font-size: 12.44px;
+    line-height: 14.51px;
+  }
+  .productPrices {
+    bottom: 62px;
+    left: 8.29px;
+  }
+  .productPrice {
+    font-size: 14.51px;
+    line-height: 14.51px;
+    padding: 2.07px;
+  }
+  .productPrice.discountedPrice {
+    padding: 2.07px;
+  }
+  .productPriceNew {
+    font-size: 14.51px;
+    line-height: 14.51px;
+    padding: 2.07px;
+  }
+  .productPriceOff {
+    font-size: 14.51px;
+    line-height: 14.51px;
+    padding: 2.07px 4.15px;
+    margin-bottom: 38.2px;
+  }
+}
+
+/* ---------------------------------------- PRODUCT GRID --------------------------------------- */
+
+.products {
+  margin-left: 7.14vw;
+  margin-right: 7.14vw;
+  margin-bottom: 80px;
+  justify-items: center;
+}
+
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 4px;
+  row-gap: 30px;
+  justify-items: center;
+}
+
+@media screen and (max-width: 376px) {
+  .products {
+    width: 375px;
+    height: 441px;
+    margin-bottom: 39.83px;
+    margin-left: 0px;
+    padding-top: 0px;
+  }
+  .productsHeader {
+    width: 344px !important;
+    height: 174px !important;
+    margin-bottom: 34px !important;
+  }
+  .productsTitleBox {
+    width: 344px !important;
+    height: 174px !important;
+  }
+  .productsGrid {
+    width: 360px;
+    height: 233.17px;
+    margin-left: 15.5px !important;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+/* ------------------------------------------- HEADER ------------------------------------------ */
+
+.categoriesHeader,
+.productsHeader {
+  display: flex;
+  align-items: end;
+  height: 124px;
+  width: 85.65vw;
+  margin-bottom: 3rem;
+  justify-content: space-between;
+}
+
+.categoriesTitleBox,
+.productsTitleBox {
+  text-align: left;
+  width: 48.92vw;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  color: var(--ebony);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 1rem;
+}
+
+.title2 {
+  color: var(--primary-color);
+}
+
+.subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--gray-dark);
+  line-height: 26px;
+  white-space: pre-wrap;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 376px) {
+  .title {
+    width: 342px;
+    height: 80px;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .subtitle {
+    width: 342px;
+    height: 104px;
+    margin-bottom: 8px;
+  }
+}
+
+/* ----------------------------------------- CATEGORIES ---------------------------------------- */
+
+.categories {
+  width: 91.83vw;
+  margin-left: 7.1vw;
+  margin-bottom: 80px;
+}
+
+.categoriesButton {
+  width: 16.12vw;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoriesLink {
+  font-family: "Raleway", sans-serif;
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.categoriesLinkIcon {
+  margin-left: 10px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.categoriesLinkIcon svg {
+  stroke: currentColor;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 3px;
+}
+
+@media screen and (max-width: 376px) {
+  .categories {
+    width: 375px;
+    height: 646px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+  .categoriesHeader {
+    width: 343px;
+    height: 260px;
+    margin-left: 16px;
+    margin-bottom: 19px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .categoriesTitleBox {
+    width: 342px;
+    height: 204px;
+    margin-bottom: 8px;
+  }
+  .categoriesButton {
+    width: 232px;
+    height: 48px;
+  }
+  .categoriesLink {
+    width: 232px;
+    height: 48px;
+    justify-content: center;
+  }
+}
+
+/* -------------------------------------------- SORT ------------------------------------------- */
+
+.sortButtonWrapper {
+  position: relative;
+}
+
+.sortButton {
+  font-family: "Raleway", sans-serif;
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  background-color: var(--white);
+  border: 2px solid var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 213px;
+  height: 48px;
+  border-radius: 4px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.sortLinkIcon {
+  margin-left: 10px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.sortLinkIcon svg {
+  fill: currentColor;
+  margin-bottom: 2px;
+}
+
+.sortMenu {
+  font-family: "Raleway", sans-serif;
+  color: var(--gray-dark);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: var(--white);
+  border-top: 1px solid var(--black);
+  border-bottom: 1px solid var(--gray-light);
+  border-left: 1px solid var(--gray-light);
+  border-right: 1px solid var(--gray-light);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: -1px;
+  width: 213px;
+  list-style: none;
+  padding: 0;
+  z-index: 10;
+}
+
+.sortMenuItem {
+  padding: 12px;
+  height: 48px;
+  cursor: pointer;
+  border-top: 1px solid var(--gray-light);
+}
+
+.sortMenuItem:hover {
+  background-color: #f6f5ff;
+}
+
+@media screen and (max-width: 376px) {
+  .sortButtonWrapper {
+    display: none;
+  }
+}
+
+/* ----------------------------------------- BANNER HALF --------------------------------------- */
+
+.bannerHalf {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 85.67%;
+  height: 475px;
+  background: var(--black);
+  border-radius: 8px;
+  margin-left: 7.11%;
+  margin-right: 7.11%;
+  margin-bottom: 80px;
+  cursor: default;
+}
+
+.frame1 {
+  width: 50%;
+  height: 314px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 80px;
+}
+
+.frame2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%; 
+  height: 100%;
+  border-radius: 0px 8px 8px 0px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.bannerTitle {
+  font-family: "Raleway", sans-serif;
+  color: var(--white);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  width: 371px;
+  height: 168px;
+}
+
+.bannerDescription {
+  font-family: "Raleway", sans-serif;
+  color: #F3F4F6;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  width: 352px;
+  height: 48px;
+}
+
+.buttons {
+  display: flex;
+  gap: 25px;
+}
+
+.buttonMain,
+.buttonSecondary {
+  width: 188px;
+  height: 48px;
+}
+
+.buttonIcon {
+  margin-left: 10px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.buttonIcon svg {
+  stroke: currentColor;
+  margin-bottom: 2px;
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 376px) {
+  .bannerHalf {
+    width: 343px;
+    height: 650px;
+    margin-left: 16.5px;
+    margin-right: 16.5px;
+    margin-bottom: 40px;
+    flex-direction: column-reverse;
+  }
+  .frame1 {
+    width: 100%; 
+    height: 325px;
+    padding: 24px 0px 0px 24px;
+    margin: 0px;
+  }
+  .frame2 {
+    width: 100%; 
+    height: 325px;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .bannerTitle {
+    font-size: 28px;
+    line-height: 40px;
+    width: 295px;
+    height: 73px;
+    margin-bottom: 16px;
+  }
+  .bannerDescription {
+    width: 295px;
+    height: 68px;
+  }
+  .buttons {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .buttonMain,
+  .buttonSecondary {
+    width: 297px;
+  }
+  .buttonNormalSize {
+    width: 188px;
+  }
+}
+
+/* -------------------------------------------- HERO ------------------------------------------- */
+
+.heroContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 79.77vh;
+  margin-top: 68px;
+  margin-bottom: 80px;
+}
+
+.heroSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.heroImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 89px 427px 119px 96px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--white);
+  position: relative;
+}
+
+.heroInfo {
+  width: 80%;
+  max-width: 828px;
+  height: 298px;
+}
+
+.heroInfo h1 {
+  font-family: "Raleway", sans-serif;
+  color: var(--white);
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.heroBright .heroInfo p,
+.heroBright .heroInfo h1 {
+  color: var(--ebony);
+}
+
+.heroInfo p {
+  font-family: "Raleway", sans-serif;
+  color: var(--white);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 32px;
+  width: 65%;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 376px) {
+  .heroContainer {
+    width: 376px;
+    height: 624px;
+    margin-top: 48px;
+    margin-bottom: 40px;
+  }
+  .heroSlide,
+  .heroImage {
+    width: 376px;
+    height: 624px;
+    overflow: hidden;
+  }
+  .heroInfo {
+    width: 319px;
+    height: 196px;
+    margin-left: -80px;
+    margin-bottom: -250px;
+  }
+  .heroInfo h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 28px;
+  }
+  .heroInfo p,
+  .hideMobileButton2 {
+    display: none;
+  }
+}
