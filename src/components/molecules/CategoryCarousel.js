@@ -15,8 +15,10 @@ const CategoryCarousel = () => {
     const fetchCategoriesAndProducts = async () => {
       try {
         const [categoriesResult, productsResult] = await Promise.allSettled([
-          fetchData(`${process.env.NEXT_PUBLIC_API_BASE_URL}/categories`),
-          fetchData(`${process.env.NEXT_PUBLIC_API_BASE_URL}/products`),
+          // fetchData(`${process.env.NEXT_PUBLIC_API_BASE_URL}/categories`),
+          // fetchData(`${process.env.NEXT_PUBLIC_API_BASE_URL}/products`),
+          fetchData("https://jellyfish-app-mpahs.ondigitalocean.app/api/categories"),
+          fetchData("https://jellyfish-app-mpahs.ondigitalocean.app/api/products"),
         ]);
   
         if (categoriesResult.status === "fulfilled") {

@@ -15,7 +15,8 @@ export const AuthProvider = ({ children }) => {
   const authenticateUser = async (email, password) => {
     try {
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_API_BASE_URL}/auth/local`,
+        // `${process.env.NEXT_PUBLIC_API_BASE_URL}/auth/local`,
+        "https://jellyfish-app-mpahs.ondigitalocean.app/api/auth/local",
         {
           method: "POST",
           headers: {

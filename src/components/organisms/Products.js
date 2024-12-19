@@ -21,7 +21,8 @@ const Products = () => {
     const fetchProducts = async () => {
       try {
         const data = await fetchData(
-          `${process.env.NEXT_PUBLIC_API_BASE_URL}/products?pageSize=12&page=1`
+          // `${process.env.NEXT_PUBLIC_API_BASE_URL}/products?pageSize=12&page=1`
+          "https://jellyfish-app-mpahs.ondigitalocean.app/api/products?pageSize=12&page=1"
         );
         setProducts(data);
         setSortedProducts(data);
