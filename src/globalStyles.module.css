@@ -1295,13 +1295,14 @@
 
 /* -------------------------------------------- HERO ------------------------------------------- */
 
-/* .heroContainer {
+.heroContainer {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 79.77vh;
   margin-top: 68px;
   margin-bottom: 80px;
+  background-color: red;
 }
 
 .heroSlide {
@@ -1316,8 +1317,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 89px 427px 119px 96px;
-  width: 100%;
+  padding: 14.83vh 42vw 33.74vh 7.2vw;
+  width: 101%;
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -1327,8 +1328,8 @@
 }
 
 .heroInfo {
-  width: 80%;
-  max-width: 828px;
+  width: 49vw;
+  max-width: 100vw;
   height: 298px;
 }
 
@@ -1354,68 +1355,7 @@
   line-height: 32px;
   width: 65%;
   margin-bottom: 40px;
-} */
-.heroContainer {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 80vh; /* Aproximación redondeada */
-  margin-top: 5vh; /* Aproximación relativa */
-  margin-bottom: 6vh; /* Aproximación relativa */
 }
-
-.heroSlide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.heroImage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 10vh 30vw 15vh 7vw; /* Aproximación relativa basada en viewport */
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: var(--white);
-  position: relative;
-}
-
-.heroInfo {
-  width: 80%;
-  max-width: 60vw; /* Aproximación relativa */
-  height: auto; /* Altura automática para flexibilidad */
-}
-
-.heroInfo h1 {
-  font-family: "Raleway", sans-serif;
-  color: var(--white);
-  font-size: 4vw; /* Relativo al ancho del viewport */
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 1vh;
-}
-
-.heroBright .heroInfo p,
-.heroBright .heroInfo h1 {
-  color: var(--ebony);
-}
-
-.heroInfo p {
-  font-family: "Raleway", sans-serif;
-  color: var(--white);
-  font-size: 1.5vw; /* Relativo al ancho del viewport */
-  font-weight: 500;
-  line-height: 2vw; /* Relativo al viewport */
-  width: 65%; /* Se mantiene relativo al contenedor */
-  margin-bottom: 3vh; /* Relativo al viewport */
-}
-
 
 @media screen and (max-width: 376px) {
   .heroContainer {

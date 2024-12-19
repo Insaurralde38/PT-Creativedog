@@ -24,6 +24,10 @@ body {
   width: auto !important;
 }
 
+.swiper-slide-active {
+  opacity: 1 !important;
+}
+
 .swiper-pagination {
   text-align: center; 
   display: flex;
@@ -49,10 +53,4 @@ body {
   width: 57px;
   background-color: var(--primary-color);
   border-radius: 20px;
-}
-
-@media screen and (max-width: 376px) {
-  .swiper-slide-active {
-    opacity: 1 !important;
-  }
 }
