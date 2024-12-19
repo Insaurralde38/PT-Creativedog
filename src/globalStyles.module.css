@@ -1302,7 +1302,6 @@
   height: 79.77vh;
   margin-top: 68px;
   margin-bottom: 80px;
-  background-color: red;
 }
 
 .heroSlide {
@@ -1330,7 +1329,8 @@
 .heroInfo {
   width: 49vw;
   max-width: 100vw;
-  height: 298px;
+  height: 49.41vh;
+  background-color: greenyellow;
 }
 
 .heroInfo h1 {
