@@ -17,6 +17,7 @@ const Hero = () => {
         effect="fade"
         fadeEffect={{ crossFade: true }}
         pagination={{
+          el:".swiper-pagination",
           clickable: true,
           type: "bullets",
           bulletClass: "swiper-custom-bullet",
@@ -30,6 +31,7 @@ const Hero = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div className="swiper-pagination"/>
     </div>
   );
 };

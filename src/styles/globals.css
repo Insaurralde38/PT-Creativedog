@@ -31,8 +31,9 @@ body {
 .swiper-pagination {
   text-align: center;
   display: flex;
+  /* margin-top: -200px; */
   margin-bottom: 0vh;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
 }
 
 .swiper-pagination-horizontal {
