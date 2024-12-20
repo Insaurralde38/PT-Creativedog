@@ -31,15 +31,15 @@ body {
 .swiper-pagination {
   text-align: center;
   display: flex;
-  position: absolute;
-  margin-bottom: 20.3vh;
+  margin-bottom: 0vh;
+  background-color: yellowgreen;
 }
 
 .swiper-pagination-horizontal {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   gap: 1vw;
-  margin-left: -38.7vw;
+  margin-left: 7.2vw;
 }
 
 .swiper-custom-bullet {
