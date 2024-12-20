@@ -27,7 +27,7 @@ const Hero = () => {
       >
         {heroData.map((item) => (
           <SwiperSlide key={item.id} className={styles.heroSlide}>
-            <HeroSlide item={item} />
+            <HeroSlide item={item}/>
           </SwiperSlide>
         ))}
       </Swiper>
