@@ -31,13 +31,14 @@ body {
 .swiper-pagination {
   text-align: center;
   display: flex;
-  margin-bottom: 23.1vh;
+  position: absolute;
+  margin-bottom: 20.3vh;
 }
 
 .swiper-pagination-horizontal {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 1vw;
   margin-left: -38.7vw;
 }
 
