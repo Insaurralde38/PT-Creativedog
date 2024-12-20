@@ -31,8 +31,7 @@ body {
 .swiper-pagination {
   text-align: center;
   display: flex;
-  position: absolute;
-  margin-bottom: 11.4vh;
+  /* margin-bottom: 11.4vh; */
   background-color: yellowgreen;
 }
 
@@ -41,6 +40,7 @@ body {
   justify-content: left;
   gap: 1vw;
   margin-left: 7.2vw;
+  margin-bottom: 11.4vh;
 }
 
 .swiper-custom-bullet {
