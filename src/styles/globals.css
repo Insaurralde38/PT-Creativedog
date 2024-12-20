@@ -29,16 +29,16 @@ body {
 }
 
 .swiper-pagination {
-  text-align: center; 
+  text-align: center;
   display: flex;
-  margin-bottom: 76px;
+  margin-bottom: 23.1vh;
 }
 
 .swiper-pagination-horizontal {
-  display: flex; 
-  justify-content: center; 
-  gap: 12px; 
-  margin-left: -532px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-left: -38.7vw;
 }
 
 .swiper-custom-bullet {
@@ -52,5 +52,5 @@ body {
   height: 8px;
   width: 57px;
   background-color: var(--primary-color);
-  border-radius: 20px;
+  border-radius: 10vw;
 }
