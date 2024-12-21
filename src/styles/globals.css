@@ -32,6 +32,7 @@ body {
   position: absolute;
   text-align: center;
   display: flex;
+  bottom: calc(var(--hero-container-height, 597px) - 100%); /* Ajusta dinámicamente */
 }
 
 .swiper-pagination-horizontal {
@@ -41,7 +42,6 @@ body {
   gap: 1vw;
   margin-left: 7.2vw;
   max-width: 49vw;
-  margin-bottom: 11.4vh;
 }
 
 .swiper-custom-bullet {

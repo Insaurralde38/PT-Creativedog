@@ -1333,6 +1333,8 @@
   height: 49.41vh;
   max-height: 318px;
   background-color: purple;
+  position: relative;
+  margin-bottom: var(--hero-pagination-gap, 20px); /* Espaciado predeterminado */
 }
 
 .heroInfo h1 {
