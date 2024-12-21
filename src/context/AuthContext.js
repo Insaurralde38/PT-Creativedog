@@ -1,4 +1,4 @@
-import { createContext, useState, useContext } from "react";
+import { createContext, useState, useContext, useEffect } from "react";
 
 const AuthContext = createContext();
 
@@ -6,10 +6,22 @@ export const AuthProvider = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [userData, setUserData] = useState(null);
 
+  useEffect(() => {
+    const storedUser = localStorage.getItem("userData");
+    const token = localStorage.getItem("authToken");
+    if (storedUser && token) {
+      setIsAuthenticated(true);
+      setUserData(JSON.parse(storedUser));
+    }
+  }, []);
+
   const login = () => setIsAuthenticated(true);
+
   const logout = () => {
     setIsAuthenticated(false);
     setUserData(null);
+    localStorage.removeItem("userData");
+    localStorage.removeItem("authToken");
   };
 
   const authenticateUser = async (email, password) => {
@@ -33,6 +45,10 @@ export const AuthProvider = ({ children }) => {
       if (response.ok) {
         setIsAuthenticated(true);
         setUserData(data.user);
+
+        localStorage.setItem("authToken", data.jwt);
+        localStorage.setItem("userData", JSON.stringify(data.user));
+
         return { success: true, data };
       } else {
         return { success: false, message: "Credenciales inválidas." };

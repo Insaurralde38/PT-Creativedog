@@ -29,17 +29,18 @@ body {
 }
 
 .swiper-pagination {
+  position: absolute;
   text-align: center;
   display: flex;
-  /* margin-bottom: 11.4vh; */
-  background-color: yellowgreen;
 }
 
 .swiper-pagination-horizontal {
   display: flex;
+  background-color: royalblue;
   justify-content: left;
   gap: 1vw;
   margin-left: 7.2vw;
+  max-width: 49vw;
   margin-bottom: 11.4vh;
 }
 
