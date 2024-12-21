@@ -31,9 +31,7 @@ const Hero = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className={styles.heroPaginationWrapper}>
-        <div className="swiper-pagination" />
-      </div>
+      <div className="swiper-pagination" />
     </div>
   );
 };

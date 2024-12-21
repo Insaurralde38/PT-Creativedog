@@ -1336,12 +1336,6 @@
   background-color: purple;
 }
 
-.heroPaginationWrapper {
-  display: flex;
-  /* margin-bottom: 11.4vh; */
-  margin-top: 0;
-}
-
 .heroInfo h1 {
   font-family: "Raleway", sans-serif;
   color: var(--white);
