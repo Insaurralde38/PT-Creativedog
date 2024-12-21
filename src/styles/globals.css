@@ -48,7 +48,7 @@ body {
   max-width: 49vw;
   /* margin-bottom: 5.1%; */
   /* margin-bottom: 11.4vh; */
-  margin-bottom: 69px;
+  margin-bottom: calc(100% + 5%);
 }
 
 .swiper-custom-bullet {
