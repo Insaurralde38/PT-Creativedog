@@ -29,8 +29,14 @@ body {
 }
 
 .swiper-pagination {
-  text-align: center;
+  position: absolute;
+  top: calc(100% + 10px); /* Alinea debajo de .heroInfo con un margen opcional */
+  left: 0;
+  width: 100%;
   display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 2;
 }
 
 .swiper-pagination-horizontal {
@@ -40,8 +46,9 @@ body {
   gap: 1vw;
   margin-left: 7.2vw;
   max-width: 49vw;
+  /* margin-bottom: 5.1%; */
   /* margin-bottom: 11.4vh; */
-  margin-bottom: 5.1%;
+  margin-bottom: 69px;
 }
 
 .swiper-custom-bullet {

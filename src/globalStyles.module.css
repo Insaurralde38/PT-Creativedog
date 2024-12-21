@@ -1334,6 +1334,8 @@
   height: 49.41vh;
   max-height: 318px;
   background-color: purple;
+  position: relative;
+  z-index: 1;
 }
 
 .heroInfo h1 {
