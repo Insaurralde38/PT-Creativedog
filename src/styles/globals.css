@@ -30,7 +30,7 @@ body {
 
 .swiper-pagination {
   position: absolute;
-  top: calc(100% - 100px); /* Alinea debajo de .heroInfo con un margen opcional */
+  /* top: calc(100% - 100px); */
   left: 0;
   width: 100%;
   display: flex;
@@ -48,7 +48,7 @@ body {
   max-width: 49vw;
   /* margin-bottom: 5.1%; */
   /* margin-bottom: 11.4vh; */
-  margin-bottom: calc(100% + 5%);
+  margin-bottom: calc(100% - 94.9%);
 }
 
 .swiper-custom-bullet {
