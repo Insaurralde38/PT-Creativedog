@@ -29,10 +29,8 @@ body {
 }
 
 .swiper-pagination {
-  position: absolute;
   text-align: center;
   display: flex;
-  bottom: calc(var(--hero-container-height, 597px) - 100%); /* Ajusta dinámicamente */
 }
 
 .swiper-pagination-horizontal {
