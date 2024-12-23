@@ -30,25 +30,22 @@ body {
 
 .swiper-pagination {
   position: absolute;
-  /* top: calc(100% - 100px); */
-  left: 0;
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 10px;
-  z-index: 2;
-}
-
-.swiper-pagination-horizontal {
-  display: flex;
-  background-color: royalblue;
-  justify-content: left;
-  gap: 1vw;
+  /* background-color: royalblue; */
   margin-left: 7.2vw;
   max-width: 49vw;
   /* margin-bottom: 5.1%; */
   /* margin-bottom: 11.4vh; */
-  margin-bottom: calc(100% - 94.9%);
+  /* margin-bottom: calc(100% - 94.9%); */
+  z-index: 10;
+}
+
+.swiper-pagination-horizontal {
+  display: flex;
+  justify-content: left;
+  gap: 1vw;
 }
 
 .swiper-custom-bullet {
