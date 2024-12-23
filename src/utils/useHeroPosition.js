@@ -15,7 +15,7 @@ const useHeroPosition = () => {
         const containerBottom = heroContainerRect.bottom;
         const infoBottom = heroInfoRect.bottom;
 
-        const distance = (containerBottom - infoBottom) * 0.7;
+        const distance = (containerBottom - infoBottom) * 0.6;
 
         pagination.style.bottom = `${distance}px`;
       };
