@@ -1303,7 +1303,7 @@
   max-height: 597px;
   margin-top: 68px;
   margin-bottom: 80px;
-  justify-content: flex-start; /* Para alinear todo al principio */
+  justify-content: flex-start;
 }
 
 .heroSlide {
@@ -1377,7 +1377,6 @@
   .heroInfo {
     width: 319px;
     height: 196px;
-    margin-left: -80px;
     margin-bottom: -250px;
   }
   .heroInfo h1 {
