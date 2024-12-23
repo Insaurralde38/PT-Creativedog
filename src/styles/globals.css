@@ -33,12 +33,9 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  /* background-color: royalblue; */
+  background-color: royalblue;
   margin-left: 7.2vw;
   max-width: 49vw;
-  /* margin-bottom: 5.1%; */
-  /* margin-bottom: 11.4vh; */
-  /* margin-bottom: calc(100% - 94.9%); */
   z-index: 10;
 }
 
