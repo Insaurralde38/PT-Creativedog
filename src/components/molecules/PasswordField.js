@@ -1,13 +1,13 @@
-import { useState } from "react";
-import Input from "@/components/atoms/Input";
-import IconButton from "./IconButton";
-import Label from "@/components/atoms/Label";
+import useTogglePasswordVisibility from "@/hooks/useTogglePasswordVisibility";
 import ErrorText from "@/components/atoms/ErrorText";
+import Input from "@/components/atoms/Input";
+import Label from "@/components/atoms/Label";
+import IconButton from "@/components/molecules/IconButton";
 import LoginPageData from "@/data/LoginPageData";
-import styles from "@/globalStyles.module.css"
+import styles from "@/globalStyles.module.css";
 
 const PasswordField = ({ label, name, id, placeholder, error, value, onChange, onBlur }) => {
-  const [showPassword, setShowPassword] = useState(false);
+  const { showPassword, togglePasswordVisibility } = useTogglePasswordVisibility();
 
   return (
     <div className="mb-3">
@@ -27,7 +27,7 @@ const PasswordField = ({ label, name, id, placeholder, error, value, onChange, o
         />
         <IconButton
           className={styles.eyeButton}
-          onClick={() => setShowPassword(!showPassword)}
+          onClick={togglePasswordVisibility}
           icon={showPassword ? LoginPageData.icons.eye : LoginPageData.icons.eyeOff}
         />
       </div>

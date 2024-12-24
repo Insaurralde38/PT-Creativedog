@@ -1,7 +1,7 @@
 import React from "react";
-import SocialIcon from "@/components/atoms/SocialIcon";
-import Text from "@/components/atoms/Text";
 import Link from "@/components/atoms/Link";
+import Text from "@/components/atoms/Text";
+import SocialIcon from "@/components/atoms/SocialIcon";
 import Logo from "@/components/molecules/Logo";
 import styles from "@/globalStyles.module.css";
 

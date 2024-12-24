@@ -1,26 +1,16 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-import styles from "@/globalStyles.module.css";
-import heroData from "@/data/HeroData";
+import usePaginationPosition from "@/hooks/usePaginationPosition";
 import HeroSlide from "@/components/molecules/HeroSlide";
-import paginationPosition from "@/utils/paginationPosition";
+import heroData from "@/data/HeroData";
+import styles from "@/globalStyles.module.css";
 
 const Hero = () => {
-  
-  useEffect(() => {
-    paginationPosition();
-    window.addEventListener("resize", paginationPosition);
-    window.addEventListener("scroll", paginationPosition);
-
-    return () => {
-      window.removeEventListener("resize", paginationPosition);
-      window.removeEventListener("scroll", paginationPosition);
-    };
-  }, []);
+  usePaginationPosition();
 
   return (
     <div id="hero-section" className={styles.heroContainer}>

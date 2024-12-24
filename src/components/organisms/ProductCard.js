@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "@/globalStyles.module.css";
-import FavouriteButton from "@/components/molecules/FavouriteButton";
+import { calculateDiscountPercentage } from "@/utils/calculateDiscountPercentage";
 import Icon from "@/components/atoms/Icon";
+import FavouriteButton from "@/components/molecules/FavouriteButton";
 import ProductInfo from "@/components/molecules/ProductInfo";
 import ProductPrice from "@/components/molecules/ProductPrice";
-import { calculateDiscountPercentage } from "@/utils/calculateDiscountPercentage";
+import styles from "@/globalStyles.module.css";
 
 const ProductCard = ({ product, quickView }) => {
   const { name, categories, price, priceWithDiscount, featureImage } = product;

@@ -1,27 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import HomeTemplate from "@/components/templates/HomeTemplate";
 import Navbar from "@/components/organisms/Navbar";
-import { handleNavbarScroll } from "@/utils/handleNavbarScroll";
+import useNavbarState from "@/hooks/useNavbarState";
 
 const HomePage = () => {
-  const [isNavbarFixed, setIsNavbarFixed] = useState(true);
-  const [isNavbarHidden, setIsNavbarHidden] = useState(false);
-  const [isBelowHero, setIsBelowHero] = useState(false);
-
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const handleScroll = handleNavbarScroll({
-        setIsNavbarFixed,
-        setIsNavbarHidden,
-        setIsBelowHero,
-      });
-
-      window.addEventListener("scroll", handleScroll);
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    }
-  }, []);
+  const { isNavbarFixed, isNavbarHidden } = useNavbarState();
 
   return (
     <div className="bg-white">

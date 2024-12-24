@@ -1,11 +1,11 @@
 import React, { useState, useRef } from "react";
 import { useAuth } from "@/context/AuthContext";
-import navbarData from "@/data/NavbarData";
-import styles from "@/globalStyles.module.css";
+import { handleTouchStart, handleTouchMove, handleTouchEnd } from "@/utils/touchHandlers";
+import IconButton from "@/components/molecules/IconButton";
 import Logo from "@/components/molecules/Logo";
 import Menu from "@/components/molecules/Menu";
-import IconButton from "@/components/molecules/IconButton";
-import { handleTouchStart, handleTouchMove, handleTouchEnd } from "@/utils/touchHandlers";
+import navbarData from "@/data/NavbarData";
+import styles from "@/globalStyles.module.css";
 
 const Navbar = ({ isFixed, isHidden }) => {
   const { isAuthenticated, logout } = useAuth();

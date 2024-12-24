@@ -1,11 +1,11 @@
 import { Formik, Form } from "formik";
-import FormGroup from "@/components/molecules/FormGroup";
-import PasswordField from "@/components/molecules/PasswordField";
 import Button from "@/components/atoms/Button";
 import Icon from "@/components/atoms/Icon";
 import Link from "@/components/atoms/Link";
-import styles from "@/globalStyles.module.css";
+import FormGroup from "@/components/molecules/FormGroup";
+import PasswordField from "@/components/molecules/PasswordField";
 import LoginPageData from "@/data/LoginPageData";
+import styles from "@/globalStyles.module.css";
 
 const LoginForm = ({ initialValues, validationSchema, onSubmit, data }) => (
   <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={onSubmit}>

@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "@/globalStyles.module.css";
 import Text from "@/components/atoms/Text";
 import BannerButtons from "@/components/molecules/BannerButtons";
+import styles from "@/globalStyles.module.css";
 
 const HeroContent = ({ title, description, buttons, theme }) => (
   <div className={styles.heroInfo}>

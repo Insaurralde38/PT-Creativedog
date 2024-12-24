@@ -1,44 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import { calculateProductCount } from "@/utils/calculateProductCount";
+import { useCategories } from "@/hooks/useCategories";
+import { useProducts } from "@/hooks/useProducts";
 import CategoryCard from "@/components/atoms/CategoryCard";
 import styles from "@/globalStyles.module.css";
-import { fetchData } from "@/utils/fetchData";
-import { calculateProductCount } from "@/utils/calculateProductCount";
 
 const CategoryCarousel = () => {
-  const [categories, setCategories] = useState([]);
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    const fetchCategoriesAndProducts = async () => {
-      try {
-        const [categoriesResult, productsResult] = await Promise.allSettled([
-          // fetchData(`${process.env.NEXT_PUBLIC_API_BASE_URL}/categories`),
-          // fetchData(`${process.env.NEXT_PUBLIC_API_BASE_URL}/products`),
-          fetchData("https://jellyfish-app-mpahs.ondigitalocean.app/api/categories"),
-          fetchData("https://jellyfish-app-mpahs.ondigitalocean.app/api/products"),
-        ]);
-  
-        if (categoriesResult.status === "fulfilled") {
-          setCategories(categoriesResult.value);
-        } else {
-          console.error("Error fetching categories:", categoriesResult.reason);
-        }
-  
-        if (productsResult.status === "fulfilled") {
-          setProducts(productsResult.value);
-        } else {
-          console.error("Error fetching products:", productsResult.reason);
-        }
-      } catch (error) {
-        console.error("Unexpected error:", error);
-      }
-    };
-  
-    fetchCategoriesAndProducts();
-  }, []);
+  const { categories } = useCategories();
+  const { products } = useProducts();
 
   return (
     <Swiper

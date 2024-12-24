@@ -1,6 +1,6 @@
 import styles from "@/globalStyles.module.css"
 
-const paginationPosition = () => {
+export const paginationPosition = () => {
   const heroContainer = document.getElementById("hero-section");
   const heroInfo = heroContainer?.querySelector(`.${styles.heroInfo}`);
   const pagination = heroContainer?.querySelector(".swiper-pagination");
@@ -18,5 +18,3 @@ const paginationPosition = () => {
     pagination.style.bottom = `${distance}px`;
   }
 };
-
-export default paginationPosition;

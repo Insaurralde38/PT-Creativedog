@@ -1,6 +1,6 @@
-import Label from "@/components/atoms/Label";
-import Input from "@/components/atoms/Input";
 import ErrorText from "@/components/atoms/ErrorText";
+import Input from "@/components/atoms/Input";
+import Label from "@/components/atoms/Label";
 
 const FormGroup = ({ label, type, name, id, placeholder, error, value, onChange, onBlur }) => (
   <div className="mb-3">

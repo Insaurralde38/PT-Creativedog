@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "@/globalStyles.module.css";
 import { formatPrice } from "@/utils/formatPrice";
+import styles from "@/globalStyles.module.css";
 
 const ProductPrice = ({ price, priceWithDiscount, discountPercentage }) => (
   <div className={styles.productPrices}>

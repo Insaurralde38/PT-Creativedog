@@ -1,7 +1,7 @@
 import React from "react";
+import { isMobile } from "@/utils/isMobile";
 import HeroContent from "@/components/molecules/HeroContent";
 import styles from "@/globalStyles.module.css";
-import { isMobile } from "@/utils/isMobile";
 
 const HeroSlide = ({ item }) => (
   <div

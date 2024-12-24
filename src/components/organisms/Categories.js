@@ -1,9 +1,9 @@
 import React from "react";
-import categoriesData from "@/data/CategoriesData";
-import Header from "@/components/molecules/Header";
+import { formatSubtitle } from "@/utils/formatSubtitle";
 import LinkButton from "@/components/atoms/LinkButton";
 import CategoryCarousel from "@/components/molecules/CategoryCarousel";
-import { formatSubtitle } from "@/utils/formatSubtitle";
+import Header from "@/components/molecules/Header";
+import categoriesData from "@/data/CategoriesData";
 import styles from "@/globalStyles.module.css";
 
 const Categories = () => {

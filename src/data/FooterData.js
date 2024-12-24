@@ -1,7 +1,7 @@
 import icons from "./Icons";
 const currentYear = new Date().getFullYear();
 
-export const footerData = {
+const footerData = {
   logo: icons.logo.commerce,
   terms: "Términos y Condiciones",
   copyright: `Todos los derechos reservados a Creativedog Agency - ${currentYear}`,
