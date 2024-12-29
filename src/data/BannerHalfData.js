@@ -1,4 +1,4 @@
-import icons from "./Icons";
+import icons from "@/data/Icons";
 
 const bannerHalfData = {
   title: "Ejemplo de título de tres líneas",

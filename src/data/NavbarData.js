@@ -1,4 +1,4 @@
-import icons from "./Icons";
+import icons from "@/data/Icons";
 
 const navbarData = {
   logoIcon: icons.logo.commerce,

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchData } from "@/utils/fetchData";
+import axios from "axios";
 
 export const useCategories = () => {
   const [categories, setCategories] = useState([]);
@@ -8,8 +8,10 @@ export const useCategories = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const result = await fetchData(`${process.env.NEXT_PUBLIC_API_BASE_URL}/categories`);
-        setCategories(result);
+        const response = await axios.get(`${process.env.NEXT_PUBLIC_API_BASE_URL}/categories`, {
+          headers: { "Content-Type": "application/json" },
+        });
+        setCategories(response.data.data);
       } catch (err) {
         setError(err);
         console.error("Error fetching categories:", err);

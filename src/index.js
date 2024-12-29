@@ -1,6 +1,6 @@
 import Head from "next/head";
-import App from "./App";
-import Footer from "./components/organisms/Footer";
+import App from "@/App";
+import Footer from "@/components/organisms/Footer";
 import footerData from "@/data/FooterData";
 
 export default function Index() {

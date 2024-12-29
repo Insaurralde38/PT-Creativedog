@@ -1,174 +1,301 @@
-# Prueba Técnica - Frontend - ReactJs/Next.js
+<p align="left">
+    <img src="./public/assets/images/insa-logo.png" height="50" alt="Insa Logo">
+</p>
 
-## Detalles de la prueba
+# Prueba Técnica | [**Creativedog**](https://creativedog-insa.vercel.app/)
 
----
+<p align="center">
+  <img src="https://yt3.googleusercontent.com/lSBo1Bqi6NPkGZHMSy4rYtf7-HDnFQ2HPiTgMrnbn9TS3hOcwDkLjnkv_ekSRZ--yYurQvs2ww=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" alt="Creativdog Banner" />
+</p>
 
-¡Bienvenid@ a la oportunidad de demostrar tus habilidades técnicas en React/Next.js! 
+<div align="center">
 
-En **Creativedog**, estamos emocionados de conocer tu destreza y creatividad a través de una prueba técnica de frontend diseñada para evaluar tus conocimientos y habilidades en el desarrollo web enfocándonos en:
+## **📌 TECNOLOGÍAS UTILIZADAS**
 
-- Aplicación de las mejores prácticas de desarrollo frontend
-- Enfoque en la usabilidad
-- Atención a los detalles en la implementación de las funcionalidades requeridas
-- Interpretación de las instrucciones asignadas
+![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat-square&logo=javascript)
+![HTML5](https://img.shields.io/badge/-HTML5-E46625?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-663399?style=flat-square&logo=css)
+[![React](https://img.shields.io/badge/-React-000000?style=flat-square&logo=react&link=https://es.react.dev/)](https://es.react.dev/)
+[![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&link=https://nextjs.org/)](https://nextjs.org/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-7C01FD?style=flat-square&logo=bootstrap&logoColor=white&link=https://getbootstrap.com/)](https://getbootstrap.com/)
+[![Swiper](https://img.shields.io/badge/-Swiper-3678FF?style=flat-square&logo=swiper&link=https://swiperjs.com/)](https://swiperjs.com/)
+[![Formik](https://img.shields.io/badge/-Formik-1B294E?style=flat-square&logo=formik&logoColor=2249CE&link=https://formik.org/)](https://formik.org/)
+[![Axios](https://img.shields.io/badge/-Axios-5700E7?style=flat-square&logo=Axios&link=https://axios-http.com/)](https://axios-http.com/)
+[![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&link=https://vercel.com/)](https://vercel.com/)
 
----
-
-## La prueba consta de la creación de dos pantallas esenciales para nuestro proyecto.
-
-### Pantalla 1: Login
-
-En primer lugar, la pantalla de inicio de sesión, donde buscamos que demuestres tus habilidades en el manejo de formularios y validación de datos. Queremos ver cómo implementas un proceso de autenticación seguro y eficiente.
-
-**Requisitos de implementación:**
-
-- Se deberá validar el formulario de ingreso con la librería [Formik](https://formik.org/), mostrando los errores correspondientes.
-- Para loguearse se deberá llamar al endpoint correspondiente ([ver documentación de API](https://www.notion.so/Prueba-T-cnica-Frontend-ReactJs-Next-js-212e50fa60eb4f2eaea757cc4b33324d?pvs=21) ) y guardar la data en Local Storage.
-
-### Pantalla 2: Home
-
-En segundo lugar, la página principal, que simula un entorno de comercio electrónico. Aquí, tu tarea será llevar a cabo el maquetado de la interfaz  con un diseño atractivo,  responsive y pixel perfect. Además, deberás integrar algunas API’s que proporcionaremos para agregar funcionalidades dinámicas.
-
-**Requisitos de implementación:**
-
-- Para obtener los productos se deberá llamar al endpoint correspondiente ([ver documentación de API](https://www.notion.so/Prueba-T-cnica-Frontend-ReactJs-Next-js-212e50fa60eb4f2eaea757cc4b33324d?pvs=21) ) y paginarlos acorde al diseño.
-- Para obtener las categorías se deberá llamar al endpoint correspondiente ([ver documentación de API](https://www.notion.so/Prueba-T-cnica-Frontend-ReactJs-Next-js-212e50fa60eb4f2eaea757cc4b33324d?pvs=21) ) y paginarlas acorde al diseño.
-- Todo otro contenido se esta página puede ser considerado estático.
-
-Esta prueba técnica no solo evaluará tu capacidad para trabajar con React JS, sino también tu comprensión de las mejores prácticas de desarrollo frontend, tu enfoque en la usabilidad y la atención a los detalles en la implementación de las funcionalidades requeridas.
-
-Estamos ansiosos por ver cómo te enfrentas a este desafío!
-
-¡Buena suerte y disfruta del proceso de desarrollo! Estamos seguros de que será una experiencia enriquecedora para ambas partes.
-
-<aside>
-🔋 Al [final de esta página](https://www.notion.so/Prueba-T-cnica-Frontend-ReactJs-Next-js-212e50fa60eb4f2eaea757cc4b33324d?pvs=21) encontrarás material extra a modo guía de como trabajamos en Creativedog
-
-</aside>
+</div>
 
 ---
 
-## Forma de entrega
+<div align="center">
 
-La entrega del proyecto deberá llevarse a cabo a través de un repositorio, preferentemente alojado en [gitlab](https://gitlab.com/), pero queda a discreción del evaluado.
+## **📋 DESCRIPCIÓN**
 
-Creativedog Agency trabaja con la estrategia de repositorios [Gitflow](https://www.gitkraken.com/learn/git/git-flow), por lo tanto el repositorio que se entrega se deberá estructurar de la siguiente manera:
+</div>
 
-**Ramas:**
-
-- *main*: Es la rama de producción, donde se inicializa el proyecto.
-- *develop*: Rama de desarrollo donde se van incorporando las *features* aprobadas.
-- *feature/technical-test*: La rama donde se deberá desarrollar la prueba, para mayor simplificación se desarrollará toda la prueba en esta rama, aunque incluye varias features. Obviamente podés hacer todos lo commits que desees, pero recordá siempre comentar de forma descriptiva y concisa :).
-
-Como paso final se pide generar el *merge request* (o *pull request*, dependiendo el repositorio elegido) documentando brevemente lo desarrollado y comentarios extras de creerlos necesario.
-
-## Assets
+Este proyecto es el resultado de una prueba técnica desarrollada para **Creativedog Agency**, con el objetivo de evaluar habilidades en desarrollo frontend utilizando ReactJS y Next.js. La prueba consistió en la creación de dos pantallas: una de inicio de sesión y una de página principal simulando un entorno de comercio electrónico.
 
 ---
 
-### Figma (files)
+<div align="center">
 
-https://www.figma.com/file/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?type=design&node-id=1%3A3&mode=design&t=V9CpnzzegU4hVz17-1
+## **📁 DETALLES**
 
-### Figma (Prototypes) - Desktop
+</div>
 
-https://www.figma.com/proto/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?page-id=1%3A3&type=design&node-id=305-3526&viewport=315%2C509%2C0.22&t=GT8D0BuSTXNo2lIB-1&scaling=min-zoom&starting-point-node-id=305%3A3526&show-proto-sidebar=1&mode=design
+**📍 LOGIN PAGE |** Una pantalla de inicio de sesión con las siguientes funcionalidades:
 
-### Figma (Prototypes) - Mobile
+- Validación de formulario utilizando Formik.
+- Manejo de errores en los campos del formulario.
+- Proceso de autenticación llamando al endpoint correspondiente.
+- Almacenamiento seguro de datos de sesión en Local Storage.
 
-https://www.figma.com/proto/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?page-id=1%3A3&type=design&node-id=319-5294&viewport=315%2C509%2C0.22&t=GT8D0BuSTXNo2lIB-1&scaling=min-zoom&starting-point-node-id=319%3A5294&show-proto-sidebar=1&mode=design
+> [**IMPORANTE**]: el formulario de creación está validado sólo con JavaScript.
 
----
+**📍 HOME PAGE |** Una página principal responsiva que incluye:
 
-## API a utilizar
-
-En el siguiente link podrás encontrar la documentación de la API para el desarrollo de la prueba técnica.
-
-[](https://app.theneo.io/creativedog/c-commerce/)
-
----
-
-## Por último, te dejamos material extra a modo guía de como trabajamos en Creativedog
-
-## Guía de estilo
+- Diseño atractivo basado en el prototipo de Figma proporcionado.
+- Integración de APIs para mostrar categorías de productos.
+- Integración de APIs para obtener y mostrar productos de forma paginada.
+- Contenido estático adicional según el diseño especificado.
 
 ---
 
-La guía de estilo utilizada por Creativedog Agency es:
+<div align="center">
 
-[Airbnb Engineering & Data Science](https://airbnb.io/projects/javascript/)
+## **🎨 DISEÑOS**
 
-## Sistema de diseño
+</div>
+
+<div style="display: flex; gap:2rem; justify-content: center; margin: 2rem;">
+  <div style="align-content: center">
+    <div style="display: flex; flex-direction: column; border: 1px solid #ddd; border-radius: 6px; padding: 10px; max-width: 400px; align-self: flex-start; margin-bottom: 2rem;">
+      <div style="font-weight: bold; font-size: 1.25em; margin-bottom: 10px;">Figma (Files)</div>
+      <div style="position: relative; overflow: hidden; border-radius: 6px; margin-bottom: 10px; max-height: 230px;">
+        <img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/183bd4e5-c846-4dd2-a918-fb4b62847588" alt="Figma Preview" style="width: 100%; border-radius: 6px;">
+      </div>
+      <a href="https://www.figma.com/design/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?node-id=1-3&p=f" target="_blank" style="text-decoration: none; color: #007bfc; font-size: 0.9em; display: flex; align-items: center;">
+        <img src="https://www.gravatar.com/avatar/b41ea5bb2cbd89cf1620699952746936?size=240&amp;default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_f_v2.png" alt="Avatar" style="width: 30.192px; height: 30.192px; border-radius: 50%; margin-right: 10px;">
+        <div>
+          <div>Prueba Técnica - Frontend</div>
+          <div style="color: #555; font-size: 0.8em;">Última modificación por Figma System • hace 1 mes</div>
+        </div>
+      </a>
+    </div>
+    <div style="display: flex; flex-direction: column; border: 1px solid #ddd; border-radius: 6px; padding: 10px; max-width: 400px; align-self: flex-start;">
+      <div style="font-weight: bold; font-size: 1.25em; margin-bottom: 10px;">Figma (Prototypes) - Desktop</div>
+      <div style="position: relative; overflow: hidden; border-radius: 6px; margin-bottom: 10px;">
+        <img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7671c360-862e-4cc4-8497-b9e0e4c91256" alt="Figma Preview" style="width: 100%; border-radius: 6px;">
+      </div>
+      <a href="https://www.figma.com/proto/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?page-id=1%3A3&type=design&node-id=305-3526&scaling=scale-down-width&starting-point-node-id=305%3A3526&show-proto-sidebar=1&content-scaling=fixed" target="_blank" style="text-decoration: none; color: #007bfc; font-size: 0.9em; display: flex; align-items: center;">
+        <img src="https://www.gravatar.com/avatar/b41ea5bb2cbd89cf1620699952746936?size=240&amp;default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_f_v2.png" alt="Avatar" style="width: 30.192px; height: 30.192px; border-radius: 50%; margin-right: 10px;">
+        <div>
+          <div>Prueba Técnica - Frontend</div>
+          <div style="color: #555; font-size: 0.8em;">Última modificación por Figma System • hace 1 mes</div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div>
+    <div style="display: flex; flex-direction: column; border: 1px solid #ddd; border-radius: 6px; padding: 10px; max-width: 300px;">
+      <div style="font-weight: bold; font-size: 1.25em; margin-bottom: 10px;">Figma (Prototypes) - Mobile</div>
+      <div style="position: relative; overflow: hidden; border-radius: 6px; margin-bottom: 10px;">
+        <img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4df45d22-d788-4e92-a228-ff205d55a433" alt="Figma Preview" style="width: 100%; border-radius: 6px;">
+      </div>
+      <a href="https://www.figma.com/proto/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?page-id=1%3A3&type=design&node-id=319-5294&scaling=scale-down-width&starting-point-node-id=319%3A5294&show-proto-sidebar=1&content-scaling=fixed" target="_blank" style="text-decoration: none; color: #007bfc; font-size: 0.9em; display: flex; align-items: center;">
+        <img src="https://www.gravatar.com/avatar/b41ea5bb2cbd89cf1620699952746936?size=240&amp;default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_f_v2.png" alt="Avatar" style="width: 30.192px; height: 30.192px; border-radius: 50%; margin-right: 10px;">
+        <div>
+          <div>Prueba Técnica - Frontend</div>
+          <div style="color: #555; font-size: 0.8em;">Última modificación por Figma System • hace 1 mes</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
 
 ---
 
-El sistema de diseño utilizado por Creativedog Agency es:
+<div align="center">
 
-[Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)
+## **📖 RECURSOS UTILIZADOS**
 
-## Inicialización
+</div>
+
+<div style="margin: 2rem 0rem;">
+  <div style="display: flex; justify-content: space-between;">
+    <div>
+      <strong>Documentación de la API</strong>
+      <div style="display: flex; flex-direction: column; border: 1px solid #ddd; border-radius: 6px;padding: 10px; width: 48.1vw; align-self: flex-start; margin-bottom: 1.5rem; margin-top: 0.5rem;">
+        <a href="https://app.theneo.io/creativedog/c-commerce/" target="_blank" style="text-decoration: none; font-size: 0.9em; display: flex; align-items: center;">
+          <img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fapp.theneo.io%2Ffavicon.ico/size/?exp=1735495101&sig=hVcBUN9YT1BwE9XZwQoypKhswHtEhHjGRK36DPC8hBo" alt="Avatar" style="width: 30.192px; height: 30.192px; border-radius: 50%; margin-right: 12px;">
+          <div>
+            <div style="font-size: 14px; line-height: 20px; color: rgb(55, 53, 47); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-height: 24px; margin-bottom: 2px;">app.theneo.io</div>
+            <div style="font-size: 12px; line-height: 16px; color: rgb(55, 53, 47); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">https://app.theneo.io/creativedog/c-commerce/</div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div style="display: flex; border: 1px solid #ddd; max-width: 338px; border-radius: 6px; align-self: flex-start;">
+      <table>
+        <thead>
+          <tr>
+            <th colspan=2 style="text-align: center">Usuario de prueba</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>identifier</td>
+            <td>pruebatecnica@creativedog.agency</td>
+          </tr>
+          <tr>
+            <td>password</td>
+            <td>9I@5)22Jbc<{</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <strong>Sistema de Diseño</strong>
+  <div style="display: flex; flex-direction: column; border: 1px solid #ddd; border-radius: 6px; align-self: flex-start; max-width: 100vw; margin-bottom: 1.5rem; margin-top: 0.5rem;">
+    <a href="https://bradfrost.com/blog/post/atomic-web-design/" target="_blank" style="text-decoration: none; font-size: 0.9em; display: flex; align-items: center;">
+      <div style="padding: 10px;">
+        <div style="font-size: 14px; line-height: 20px; color: rgb(55, 53, 47); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-height: 24px; margin-bottom: 2px;">Atomic Design</div>
+        <div style="font-size: 12px; line-height: 16px; color: rgba(55, 53, 47, 0.65); height: 32px; overflow: hidden;">Hey there! I wrote a book called Atomic Design that dives into this topic in more detail, which you can buy as an ebook. We’re not designing pages, we’re designing systems of components.—Stephen Hay As the craft of Web design continues to evolve, we're recognizing the need to develop thoughtful desi</div>
+        <div style="display: flex; margin-top: 6px;">
+          <img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fbradfrost.com%2Ffavicon.ico/size/?exp=1735498579&sig=Y4C37zZV4JruF8p2ExvWsZ-I7FSbt_i5jDM1785U430" style="width: 16px; height: 16px; min-width: 16px; margin-right: 6px;">
+          <div style="font-size: 12px; line-height: 16px; color: rgb(55, 53, 47); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">https://bradfrost.com/blog/post/atomic-web-design/</div>
+        </div>
+      </div>
+      <div style="width: 100%; height: 106px;">
+        <img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fbradfrost.com%2Fwp-content%2Fuploads%2F2012%2F11%2FScreen-Shot-2012-11-13-at-5.15.05-PM.png/size/w=500?exp=1735498783&sig=ZHuBE7f7RWGb1r4t4_CLdpvwFR7HCI5rSP_l1fq7bgM" referrerpolicy="same-origin" style="display: block; object-fit: cover; border-radius: 5px; width: 100%; height: 100%;">
+      </div>
+    </a>
+  </div>
+  <strong>Guía de Estilo</strong>
+  <div style="display: flex; flex-direction: column; border: 1px solid #ddd; border-radius: 6px; align-self: flex-start; max-width: 100vw; margin-top: 0.5rem;">
+    <a href="https://airbnb.io/projects/javascript/" target="_blank" style="text-decoration: none; font-size: 0.9em; display: flex; align-items: center;">
+      <div style="padding: 10px;">
+        <div style="font-size: 14px; line-height: 20px; color: rgb(55, 53, 47); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-height: 24px; margin-bottom: 2px;">Airbnb Engineering &amp; Data Science</div>
+        <div style="font-size: 12px; line-height: 16px; color: rgba(55, 53, 47, 0.65); height: 32px; overflow: hidden;">Your first engineer is Picasso during his blue period. Your codebase quickly becomes filled with Picasso blue period javascript files. He paints you a javascript shopping cart without a problem. He's done it a million times before. But this is his best one. It's his masterpiece. And very blue.</div>
+        <div style="display: flex; margin-top: 6px;">
+          <img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fairbnb.io%2Ffavicon.ico/size/?exp=1735502981&sig=4FQP1ufVdkVJ9zVUtH0W63M3wvLjvOfVAHf4SyBAtrY" style="width: 16px; height: 16px; min-width: 16px; margin-right: 6px;">
+          <div style="font-size: 12px; line-height: 16px; color: rgb(55, 53, 47); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">https://airbnb.io/projects/javascript/</div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
 
 ---
 
-[Getting Started | Next.js](https://nextjs.org/docs)
+<div align="center">
 
-## **Estructura de carpeta y su contenido**
+## **🔀 ESTRUCTURA DEL PROYECTO**
 
----
+</div>
 
 ### ✨ root (src)
 
-- *App.js*: Componente de React que renderiza las rutas y componentes.
-- *index.js*: Componente que contiene el render de App.js y los providers de los contexts.
-- *globalStyles.module.css*: Archivo que contiene los estilos generales de todo el documento.
+- ***App.js***: Componente de React que renderiza las rutas y componentes.
+- ***index.js***: Componente que contiene el render de **`App.js`** y los providers de los contexts.
+- ***globalStyles.module.css***: Archivo que contiene los estilos generales de todo el documento.
 
 ### ✨ public > assets
 
-- *audios*: Archivos en formatos de audio.
-- *images*: Archivos en formatos de imagen. Puede contener subcarpetas para mejorar la organización.
-- *videos*: Archivos en formatos de video.
+- ***audios***: Archivos en formatos de audio.
+- ***images***: Archivos en formatos de imagen.
+- ***videos***: Archivos en formatos de video.
 
 ### ✨ components
 
-- *atoms*: Componentes de React más pequeños, la unidad mínima. Se suelen construir con elementos de html unicamente. **Ejemplos:** Button, Input, Text, Avatar, Image, Anchor, etc.
-- *molecules*: Componentes de React compuestos por dos o más átomos. Pueden contener algunos elementos html. **Ejemplos:** Card, FormGroup, Toast, etc.
-- *organisms*: Componentes de React complejos, compuesto por moléculas. Puede contener átomos y algun elemento html auxiliar. **Ejemplos:** Header, Footer, Hero, etc.
-- *templates*: Componentes de React más complejos, compuesto de organismos. Puede contener además alguna molécula. Funcionan como plantillas del contenido y deben **nombrarse y jerarquizarse con la misma estructura que posea la carpeta de pages**. **Ejemplos:** HomeTemplate, ContactTemplate, etc.
+- ***atoms***: Componentes de React más pequeños, la unidad mínima. Se suelen construir con elementos de HTML unicamente.
+- ***molecules***: Componentes de React compuestos por dos o más átomos. Pueden contener algunos elementos HTML.
+- ***organisms***: Componentes de React complejos, compuesto por moléculas. Puede contener átomos y algun elemento HTML auxiliar.
+- ***templates***: Componentes de React más complejos, compuesto de organismos. Puede contener además alguna molécula. Funcionan como plantillas del contenido.
 
 ### ✨ contexts
 
-- Archivos en formato **.js** que contengan Contexts de React utilizados en la aplicación.
+- Archivos en formato **.js** que contienen Contexts de React utilizados en la aplicación.
 
 ### ✨ data
 
-- Archivos en formato **.js** que tengan arrays y/u objetos con información estática (hardcodeada) de cada página. **Ejemplo:** títulos de páginas, títulos de botones, campos y/o labels de formularios, empty states, rutas, etc.
+- Archivos en formato **.js** que tienen arrays y/u objetos con información estática de cada página.
 
 ### ✨ pages
 
-- Archivos con componentes de las páginas del sitio. Deben renderizar su template del mismo nombre y contener funciones que traigan la información correspondiente. En las pages NO se construye el contenido, solo se utiliza para crear métodos, traer información del context, traer información del archivo **data** correspondiente, etc. **Ejemplos:** Home, Contact, AboutUs, etc.
+- Archivos con componentes de las páginas del sitio. Renderizan su template del mismo nombre y contienen funciones que traigan la información correspondiente.
 
 ### ✨ utils
 
 - Archivos en formato .js con funciones auxiliares útiles.
 
-## Librerías que podés utilizar
+---
+
+<div align="center">
+
+## **⚙️ INSTALACIÓN Y USO**
+
+</div>
+
+1. **Clonar el repositorio:**
+
+   ```bash
+   git clone https://github.com/Insaurralde38/PT-Creativedog
+   cd PT-Creativedog
+   ```
+
+2. **Instalar dependencias**:
+
+    Asegúrate de tener **Node.js** y **npm** instalados en tu sistema. Luego, instala las dependencias de los archivos **`package.json`**.
+
+   ```bash
+   npm install
+   ```
+
+3. **Añadir variables de entorno**:
+
+    En la carpeta raiz del proyecto deberás crear un archivo **`.env`** que tenga la siguiente forma:
+
+   ```env
+   NEXT_PUBLIC_API_BASE_URL=BaseURL
+   ```
+
+    Reemplazar **`BaseURL`** con la URL de la documentacion de la API. Este archivo no está incluido en este repositorio de github, ya que las credenciales son información sensible.
+
+4. **Ejecutar proyecto**:
+
+    Para visualizar la aplicación desde el navegador debes ejecutar el comando:
+
+   ```bash
+   npm run dev
+   ```
+
+    Ingresando a <http://localhost:3000> desde el navegador, podrás ver el proyecto en tiempo real
 
 ---
 
-- **SAP system:** [https://reactnavigation.org/docs/getting-started/](https://nextjs.org/)
-- **Carruseles/Sliders:** [https://www.npmjs.com/package/react-native-app-intro-slider](https://swiperjs.com/react)
-- **Llamadas a apis:** https://axios-http.com/docs/api_intro
-- **Calendarios:** https://www.npmjs.com/package/@aldabil/react-scheduler
-- **Bootstrap:** https://react-bootstrap.github.io/getting-started/introduction/
-- **Animaciones:** https://www.react-spring.dev/
-- **Animaciones on scroll:** https://www.npmjs.com/package/react-scrollmagic
-- **Constructor de animaciones on scroll:** https://www.npmjs.com/package/react-waypoint
-- **Transiciones:** https://www.react-reveal.com/
-- **Constructor de transiciones:** https://greensock.com/gsap/
-- **Traducción:** https://www.i18next.com/
-- **Formateo de html:** https://www.npmjs.com/package/react-html-parser
-- **Constructor de classNames:** https://www.npmjs.com/package/clsx
-- **Formateo de fechas:** https://momentjs.com/
-- **Input file formateado:**  https://www.npmjs.com/package/react-use-file-upload
-- **Validación de formularios:**  https://formik.org/
+<div align="center">
+
+## **⚠️ IMPORTANTE!**
+
+</div>
+
+Es necesario contar mínimamente con la última versión estable de **Node.js** y **npm**. Asegúrate de contar con ella para poder instalar correctamente las dependencias necesarias para correr el proyecto. Actualmente las versiones necesarias son:
+
+-  **Node.js**: 12.18.3 o mayor
+-  **npm**: 6.14.16 o mayor
+
+Para verificar que versión tienes instalada:
+
+   ```bash
+   node -v
+   npm -v
+   ```
+
+---
+
+<div align="end">
+
+Hecho con <img src="./public/assets/images/boke-heart.png" alt="heart" height="14" width="16" style="margin: 0px 0px -2.5px 0px" > por [**DIEGO INSAURRALDE**](https://insaurralde.vercel.app/) <img src="./public/assets/images/boke-chimp.png" alt="chimp" height="21" width="21" style="margin: 0px 0px -4px 0px" >
+
+</div>

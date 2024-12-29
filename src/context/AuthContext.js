@@ -1,4 +1,5 @@
 import { createContext, useState, useContext, useEffect } from "react";
+import axios from "axios";
 
 const AuthContext = createContext();
 
@@ -26,34 +27,31 @@ export const AuthProvider = ({ children }) => {
 
   const authenticateUser = async (email, password) => {
     try {
-      const response = await fetch(
+      const response = await axios.post(
         `${process.env.NEXT_PUBLIC_API_BASE_URL}/auth/local`,
         {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            identifier: email,
-            password: password,
-          }),
+          identifier: email,
+          password: password,
+        },
+        {
+          headers: { "Content-Type": "application/json" },
         }
       );
-      const data = await response.json();
 
-      if (response.ok) {
-        setIsAuthenticated(true);
-        setUserData(data.user);
+      const { data } = response;
 
-        localStorage.setItem("authToken", data.jwt);
-        localStorage.setItem("userData", JSON.stringify(data.user));
+      setIsAuthenticated(true);
+      setUserData(data.user);
 
-        return { success: true, data };
-      } else {
-        return { success: false, message: "Credenciales inválidas." };
-      }
+      localStorage.setItem("authToken", data.jwt);
+      localStorage.setItem("userData", JSON.stringify(data.user));
+
+      return { success: true, data };
     } catch (error) {
       console.error("Error al iniciar sesión:", error);
+      if (error.response && error.response.data) {
+        return { success: false, message: error.response.data.message || "Error al iniciar sesión." };
+      }
       return { success: false, message: "Error al conectar con el servidor." };
     }
   };

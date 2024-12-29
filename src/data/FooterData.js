@@ -1,4 +1,4 @@
-import icons from "./Icons";
+import icons from "@/data/Icons";
 const currentYear = new Date().getFullYear();
 
 const footerData = {

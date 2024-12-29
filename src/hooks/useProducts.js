@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchData } from "@/utils/fetchData";
+import axios from "axios";
 
 export const useProducts = () => {
   const [products, setProducts] = useState([]);
@@ -8,14 +8,15 @@ export const useProducts = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const result = await fetchData(`${process.env.NEXT_PUBLIC_API_BASE_URL}/products`);
-        setProducts(result);
+        const response = await axios.get(`${process.env.NEXT_PUBLIC_API_BASE_URL}/products`, {
+          headers: { "Content-Type": "application/json" },
+        });
+        setProducts(response.data.data);
       } catch (err) {
         setError(err);
         console.error("Error fetching products:", err);
       }
     };
-
     fetchProducts();
   }, []);
 

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { fetchData } from "@/utils/fetchData";
+import axios from "axios";
 
 const useFetchProducts = (url) => {
   const [products, setProducts] = useState([]);
@@ -7,8 +7,10 @@ const useFetchProducts = (url) => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const data = await fetchData(url);
-        setProducts(data);
+        const response = await axios.get(url, {
+          headers: { "Content-Type": "application/json" },
+        });
+        setProducts(response.data.data);
       } catch (error) {
         console.error("Error fetching products:", error);
       }
