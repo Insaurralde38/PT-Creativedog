@@ -1,5 +1,5 @@
 <p align="left">
-    <img src="./public/assets/images/insa-logo.png" height="50" alt="Insa Logo">
+    <img src="./public/assets/images/readme/insa-logo.png" height="50" alt="Insa Logo">
 </p>
 
 # Prueba Técnica | [**Creativedog**](https://creativedog-insa.vercel.app/)
@@ -116,14 +116,14 @@ Este proyecto es el resultado de una prueba técnica desarrollada para **Creativ
   <tr>
     <td valign="center">
       <h3>Figma (Files)</h3>
-      <img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/183bd4e5-c846-4dd2-a918-fb4b62847588" alt="Figma Preview" width="300">
+      <img src="./public/assets/images/readme/figmaFiles.png" alt="Figma Preview" width="300">
       <p>
         <a href="https://www.figma.com/design/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?node-id=1-3&p=f" target="_blank"><strong>Prueba Técnica - Frontend</strong></a>
       </p>
       <sub>Última modificación por Figma System • hace 1 mes</sub>
       <hr>
       <h3>Figma (Prototypes) - Desktop</h3>
-      <img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7671c360-862e-4cc4-8497-b9e0e4c91256" alt="Figma Preview" width="300">
+      <img src="./public/assets/images/readme/figmaDesktop.png" alt="Figma Preview" width="300">
       <p>
         <a href="https://www.figma.com/proto/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?page-id=1%3A3&type=design&node-id=305-3526&scaling=scale-down-width&starting-point-node-id=305%3A3526&show-proto-sidebar=1&content-scaling=fixed" target="_blank"><strong>Prueba Técnica - Frontend</strong></a>
       </p>
@@ -132,7 +132,7 @@ Este proyecto es el resultado de una prueba técnica desarrollada para **Creativ
     <td width="100"></td>
     <td>
       <h3>Figma (Prototypes) - Mobile</h3>
-      <img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4df45d22-d788-4e92-a228-ff205d55a433" alt="Figma Preview" width="300">
+      <img src="./public/assets/images/readme/figmaMobile.png" alt="Figma Preview" width="300">
       <p>
         <a href="https://www.figma.com/proto/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?page-id=1%3A3&type=design&node-id=319-5294&scaling=scale-down-width&starting-point-node-id=319%3A5294&show-proto-sidebar=1&content-scaling=fixed" target="_blank"><strong>Prueba Técnica - Frontend</strong></a>
       </p>
@@ -324,6 +324,6 @@ Para verificar que versión tienes instalada:
 
 <div align="end">
 
-Hecho con <img src="./public/assets/images/boke-heart.png" alt="heart" height="14" width="16" style="margin: 0px 0px -2.5px 0px" > por [**DIEGO INSAURRALDE**](https://insaurralde.vercel.app/) <img src="./public/assets/images/boke-chimp.png" alt="chimp" height="21" width="21" style="margin: 0px 0px -4px 0px" >
+Hecho con <img src="./public/assets/images/readme/boke-heart.png" alt="heart" height="14" width="16" style="margin: 0px 0px -2.5px 0px" > por [**DIEGO INSAURRALDE**](https://insaurralde.vercel.app/) <img src="./public/assets/images/readme/boke-chimp.png" alt="chimp" height="21" width="21" style="margin: 0px 0px -4px 0px" >
 
 </div>
