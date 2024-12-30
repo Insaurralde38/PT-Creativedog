@@ -113,7 +113,6 @@ Este proyecto es el resultado de una prueba técnica desarrollada para **Creativ
   </div>
 </div> -->
 <table align="center">
-  <tr>
     <td valign="center">
       <h3>Figma (Files)</h3>
       <a href="https://www.figma.com/design/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?node-id=1-3&p=f" target="_blank">
@@ -138,7 +137,6 @@ Este proyecto es el resultado de una prueba técnica desarrollada para **Creativ
       </a>
       <sub>Última modificación por Figma System • hace 1 mes</sub>
     </td>
-  </tr>
 </table>
 
 ---
