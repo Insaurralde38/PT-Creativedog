@@ -116,26 +116,26 @@ Este proyecto es el resultado de una prueba técnica desarrollada para **Creativ
   <tr>
     <td valign="center">
       <h3>Figma (Files)</h3>
-      <img src="./public/assets/images/readme/figmaFiles.png" alt="Figma Preview" width="300">
-      <p>
-        <a href="https://www.figma.com/design/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?node-id=1-3&p=f" target="_blank"><strong>Prueba Técnica - Frontend</strong></a>
-      </p>
+      <a href="https://www.figma.com/design/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?node-id=1-3&p=f" target="_blank">
+        <img src="./public/assets/images/readme/figmaFiles.png" alt="Figma Files" width="300">
+        <p><strong>Prueba Técnica - Frontend</strong></p>
+      </a>
       <sub>Última modificación por Figma System • hace 1 mes</sub>
       <hr>
       <h3>Figma (Prototypes) - Desktop</h3>
-      <img src="./public/assets/images/readme/figmaDesktop.png" alt="Figma Preview" width="300">
-      <p>
-        <a href="https://www.figma.com/proto/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?page-id=1%3A3&type=design&node-id=305-3526&scaling=scale-down-width&starting-point-node-id=305%3A3526&show-proto-sidebar=1&content-scaling=fixed" target="_blank"><strong>Prueba Técnica - Frontend</strong></a>
-      </p>
+      <a href="https://www.figma.com/proto/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?page-id=1%3A3&type=design&node-id=305-3526&scaling=scale-down-width&starting-point-node-id=305%3A3526&show-proto-sidebar=1&content-scaling=fixed" target="_blank">
+        <img src="./public/assets/images/readme/figmaDesktop.png" alt="Figma Desktop" width="300">
+        <p><strong>Prueba Técnica - Frontend</strong></p>
+      </a>
       <sub>Última modificación por Figma System • hace 1 mes</sub>
     </td>
     <td width="100"></td>
     <td>
       <h3>Figma (Prototypes) - Mobile</h3>
-      <img src="./public/assets/images/readme/figmaMobile.png" alt="Figma Preview" width="300">
-      <p>
-        <a href="https://www.figma.com/proto/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?page-id=1%3A3&type=design&node-id=319-5294&scaling=scale-down-width&starting-point-node-id=319%3A5294&show-proto-sidebar=1&content-scaling=fixed" target="_blank"><strong>Prueba Técnica - Frontend</strong></a>
-      </p>
+      <a href="https://www.figma.com/proto/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?page-id=1%3A3&type=design&node-id=319-5294&scaling=scale-down-width&starting-point-node-id=319%3A5294&show-proto-sidebar=1&content-scaling=fixed" target="_blank">
+        <img src="./public/assets/images/readme/figmaMobile.png" alt="Figma Mobile" width="300">
+        <p><strong>Prueba Técnica - Frontend</strong></p>
+      </a>
       <sub>Última modificación por Figma System • hace 1 mes</sub>
     </td>
   </tr>
