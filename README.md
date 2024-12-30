@@ -50,7 +50,7 @@ Este proyecto es el resultado de una prueba técnica desarrollada para **Creativ
 - Proceso de autenticación llamando al endpoint correspondiente.
 - Almacenamiento seguro de datos de sesión en Local Storage.
 
-> [**IMPORANTE**]: el formulario de creación está validado sólo con JavaScript.
+> [**IMPORANTE**]: el formulario de login está validado con yup.
 
 **📍 HOME PAGE |** Una página principal responsiva que incluye:
 
@@ -67,7 +67,7 @@ Este proyecto es el resultado de una prueba técnica desarrollada para **Creativ
 
 </div>
 
-<div style="display: flex; gap:2rem; justify-content: center; margin: 2rem;">
+<!-- <div style="display: flex; gap:2rem; justify-content: center; margin: 2rem;">
   <div style="align-content: center">
     <div style="display: flex; flex-direction: column; border: 1px solid #ddd; border-radius: 6px; padding: 10px; max-width: 400px; align-self: flex-start; margin-bottom: 2rem;">
       <div style="font-weight: bold; font-size: 1.25em; margin-bottom: 10px;">Figma (Files)</div>
@@ -111,7 +111,35 @@ Este proyecto es el resultado de una prueba técnica desarrollada para **Creativ
       </a>
     </div>
   </div>
-</div>
+</div> -->
+<table align="center">
+  <tr>
+    <td valign="center">
+      <h3>Figma (Files)</h3>
+      <img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/183bd4e5-c846-4dd2-a918-fb4b62847588" alt="Figma Preview" width="300">
+      <p>
+        <a href="https://www.figma.com/design/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?node-id=1-3&p=f" target="_blank"><strong>Prueba Técnica - Frontend</strong></a>
+      </p>
+      <sub>Última modificación por Figma System • hace 1 mes</sub>
+      <hr>
+      <h3>Figma (Prototypes) - Desktop</h3>
+      <img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7671c360-862e-4cc4-8497-b9e0e4c91256" alt="Figma Preview" width="300">
+      <p>
+        <a href="https://www.figma.com/proto/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?page-id=1%3A3&type=design&node-id=305-3526&scaling=scale-down-width&starting-point-node-id=305%3A3526&show-proto-sidebar=1&content-scaling=fixed" target="_blank"><strong>Prueba Técnica - Frontend</strong></a>
+      </p>
+      <sub>Última modificación por Figma System • hace 1 mes</sub>
+    </td>
+    <td width="100"></td>
+    <td>
+      <h3>Figma (Prototypes) - Mobile</h3>
+      <img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4df45d22-d788-4e92-a228-ff205d55a433" alt="Figma Preview" width="300">
+      <p>
+        <a href="https://www.figma.com/proto/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?page-id=1%3A3&type=design&node-id=319-5294&scaling=scale-down-width&starting-point-node-id=319%3A5294&show-proto-sidebar=1&content-scaling=fixed" target="_blank"><strong>Prueba Técnica - Frontend</strong></a>
+      </p>
+      <sub>Última modificación por Figma System • hace 1 mes</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
