@@ -273,7 +273,9 @@ Este proyecto es el resultado de una prueba técnica desarrollada para **Creativ
     </tr>
       <td colspan=38 >Hey there! I wrote a book called Atomic Design that dives into this topic in more detail, which you can buy as an ebook. We’re not designing pages, we’re designing systems of components.—Stephen Hay As the craft of Web design continues to evolve, we're recognizing the need to develop thoughtful desi...</td>
     <tr>
-      <td colspan=1 width=16><img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fbradfrost.com%2Ffavicon.ico/size/?exp=1735498579&sig=Y4C37zZV4JruF8p2ExvWsZ-I7FSbt_i5jDM1785U430" alt="Avatar" align="center"></td>
+      <td colspan=1 width=20>
+        <img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fbradfrost.com%2Ffavicon.ico/size/?exp=1735498579&sig=Y4C37zZV4JruF8p2ExvWsZ-I7FSbt_i5jDM1785U430" alt="Avatar" align="center" width=16 height=16>
+      </td>
       <td colspan=37 align="left">
         <a href="https://bradfrost.com/blog/post/atomic-web-design/" target="_blank" >
           <sub>https://bradfrost.com/blog/post/atomic-web-design/</sub>
@@ -295,7 +297,9 @@ Este proyecto es el resultado de una prueba técnica desarrollada para **Creativ
     </tr>
       <td colspan=58 >Your first engineer is Picasso during his blue period. Your codebase quickly becomes filled with Picasso blue period javascript files. He paints you a javascript shopping cart without a problem. He's done it a million times before. But this is his best one. It's his masterpiece. And very blue.</td>
     <tr>
-      <td colspan=1 width=16><img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fairbnb.io%2Ffavicon.ico/size/?exp=1735502981&sig=4FQP1ufVdkVJ9zVUtH0W63M3wvLjvOfVAHf4SyBAtrY" alt="Avatar" align="center"></td>
+      <td colspan=1 width=20>
+        <img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fairbnb.io%2Ffavicon.ico/size/?exp=1735502981&sig=4FQP1ufVdkVJ9zVUtH0W63M3wvLjvOfVAHf4SyBAtrY" alt="Avatar" align="center" width=16 height=16>
+      </td>
       <td colspan=37 align="left">
         <a href="https://airbnb.io/projects/javascript/" target="_blank" >
           <sub>https://airbnb.io/projects/javascript/</sub>
