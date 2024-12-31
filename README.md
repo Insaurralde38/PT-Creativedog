@@ -147,7 +147,7 @@ Este proyecto es el resultado de una prueba técnica desarrollada para **Creativ
 
 </div>
 
-<div style="margin: 2rem 0rem;">
+<!-- <div style="margin: 2rem 0rem;">
   <div style="display: flex; justify-content: space-between;">
     <div>
       <strong>Documentación de la API</strong>
@@ -210,7 +210,100 @@ Este proyecto es el resultado de una prueba técnica desarrollada para **Creativ
       </div>
     </a>
   </div>
-</div>
+</div> -->
+<table align="center">
+    <td valign="center">
+      <table>
+        <thead>
+          <tr>
+            <th colspan=2><div align="center" >Documentación de la API</div></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan=2 align="center" valign="center" >
+              <img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fapp.theneo.io%2Ffavicon.ico/size/?exp=1735495101&sig=hVcBUN9YT1BwE9XZwQoypKhswHtEhHjGRK36DPC8hBo" alt="Avatar" width=30 height=30 >
+            </td>
+            <td>
+              <b>app.theneo.io</b>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://app.theneo.io/creativedog/c-commerce/" target="_blank" >
+                <sub>https://app.theneo.io/creativedog/c-commerce/</sub>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </td>
+    <td width="100"></td>
+    <td>
+      <table>
+        <thead>
+          <tr>
+            <th colspan=2 style="text-align: center">Usuario de prueba</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>identifier</td>
+            <td>pruebatecnica@creativedog.agency</td>
+          </tr>
+          <tr>
+            <td>password</td>
+            <td>9I@5)22Jbc<{</td>
+          </tr>
+        </tbody>
+      </table>
+    </td>
+</table>
+<hr>
+<table>
+  <thead>
+    <tr>
+      <th colspan=58 ><div align="center">Sistema de Diseño</div></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan=38 >Atomic Design</td>
+      <td colspan=20 rowspan=3 ><img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fbradfrost.com%2Fwp-content%2Fuploads%2F2012%2F11%2FScreen-Shot-2012-11-13-at-5.15.05-PM.png/size/w=500?exp=1735498783&sig=ZHuBE7f7RWGb1r4t4_CLdpvwFR7HCI5rSP_l1fq7bgM"></td>
+    </tr>
+      <td colspan=38 >Hey there! I wrote a book called Atomic Design that dives into this topic in more detail, which you can buy as an ebook. We’re not designing pages, we’re designing systems of components.—Stephen Hay As the craft of Web design continues to evolve, we're recognizing the need to develop thoughtful desi...</td>
+    <tr>
+      <td colspan=1 width=16><img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fbradfrost.com%2Ffavicon.ico/size/?exp=1735498579&sig=Y4C37zZV4JruF8p2ExvWsZ-I7FSbt_i5jDM1785U430" alt="Avatar" align="center"></td>
+      <td colspan=37 align="left">
+        <a href="https://bradfrost.com/blog/post/atomic-web-design/" target="_blank" >
+          <sub>https://bradfrost.com/blog/post/atomic-web-design/</sub>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+<table>
+  <thead>
+    <tr>
+      <th colspan=58 ><div align="center">Guía de Estilo</div></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan=58 >Airbnb Engineering &amp; Data Science</td>
+    </tr>
+      <td colspan=58 >Your first engineer is Picasso during his blue period. Your codebase quickly becomes filled with Picasso blue period javascript files. He paints you a javascript shopping cart without a problem. He's done it a million times before. But this is his best one. It's his masterpiece. And very blue.</td>
+    <tr>
+      <td colspan=1 width=16><img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fairbnb.io%2Ffavicon.ico/size/?exp=1735502981&sig=4FQP1ufVdkVJ9zVUtH0W63M3wvLjvOfVAHf4SyBAtrY" alt="Avatar" align="center"></td>
+      <td colspan=37 align="left">
+        <a href="https://airbnb.io/projects/javascript/" target="_blank" >
+          <sub>https://airbnb.io/projects/javascript/</sub>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
