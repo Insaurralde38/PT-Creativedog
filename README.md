@@ -67,51 +67,6 @@ Este proyecto es el resultado de una prueba técnica desarrollada para **Creativ
 
 </div>
 
-<!-- <div style="display: flex; gap:2rem; justify-content: center; margin: 2rem;">
-  <div style="align-content: center">
-    <div style="display: flex; flex-direction: column; border: 1px solid #ddd; border-radius: 6px; padding: 10px; max-width: 400px; align-self: flex-start; margin-bottom: 2rem;">
-      <div style="font-weight: bold; font-size: 1.25em; margin-bottom: 10px;">Figma (Files)</div>
-      <div style="position: relative; overflow: hidden; border-radius: 6px; margin-bottom: 10px; max-height: 230px;">
-        <img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/183bd4e5-c846-4dd2-a918-fb4b62847588" alt="Figma Preview" style="width: 100%; border-radius: 6px;">
-      </div>
-      <a href="https://www.figma.com/design/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?node-id=1-3&p=f" target="_blank" style="text-decoration: none; color: #007bfc; font-size: 0.9em; display: flex; align-items: center;">
-        <img src="https://www.gravatar.com/avatar/b41ea5bb2cbd89cf1620699952746936?size=240&amp;default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_f_v2.png" alt="Avatar" style="width: 30.192px; height: 30.192px; border-radius: 50%; margin-right: 10px;">
-        <div>
-          <div>Prueba Técnica - Frontend</div>
-          <div style="color: #555; font-size: 0.8em;">Última modificación por Figma System • hace 1 mes</div>
-        </div>
-      </a>
-    </div>
-    <div style="display: flex; flex-direction: column; border: 1px solid #ddd; border-radius: 6px; padding: 10px; max-width: 400px; align-self: flex-start;">
-      <div style="font-weight: bold; font-size: 1.25em; margin-bottom: 10px;">Figma (Prototypes) - Desktop</div>
-      <div style="position: relative; overflow: hidden; border-radius: 6px; margin-bottom: 10px;">
-        <img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7671c360-862e-4cc4-8497-b9e0e4c91256" alt="Figma Preview" style="width: 100%; border-radius: 6px;">
-      </div>
-      <a href="https://www.figma.com/proto/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?page-id=1%3A3&type=design&node-id=305-3526&scaling=scale-down-width&starting-point-node-id=305%3A3526&show-proto-sidebar=1&content-scaling=fixed" target="_blank" style="text-decoration: none; color: #007bfc; font-size: 0.9em; display: flex; align-items: center;">
-        <img src="https://www.gravatar.com/avatar/b41ea5bb2cbd89cf1620699952746936?size=240&amp;default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_f_v2.png" alt="Avatar" style="width: 30.192px; height: 30.192px; border-radius: 50%; margin-right: 10px;">
-        <div>
-          <div>Prueba Técnica - Frontend</div>
-          <div style="color: #555; font-size: 0.8em;">Última modificación por Figma System • hace 1 mes</div>
-        </div>
-      </a>
-    </div>
-  </div>
-  <div>
-    <div style="display: flex; flex-direction: column; border: 1px solid #ddd; border-radius: 6px; padding: 10px; max-width: 300px;">
-      <div style="font-weight: bold; font-size: 1.25em; margin-bottom: 10px;">Figma (Prototypes) - Mobile</div>
-      <div style="position: relative; overflow: hidden; border-radius: 6px; margin-bottom: 10px;">
-        <img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4df45d22-d788-4e92-a228-ff205d55a433" alt="Figma Preview" style="width: 100%; border-radius: 6px;">
-      </div>
-      <a href="https://www.figma.com/proto/Y1agnin24G1Xuss788cleB/Prueba-T%C3%A9cnica---Frontend?page-id=1%3A3&type=design&node-id=319-5294&scaling=scale-down-width&starting-point-node-id=319%3A5294&show-proto-sidebar=1&content-scaling=fixed" target="_blank" style="text-decoration: none; color: #007bfc; font-size: 0.9em; display: flex; align-items: center;">
-        <img src="https://www.gravatar.com/avatar/b41ea5bb2cbd89cf1620699952746936?size=240&amp;default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_f_v2.png" alt="Avatar" style="width: 30.192px; height: 30.192px; border-radius: 50%; margin-right: 10px;">
-        <div>
-          <div>Prueba Técnica - Frontend</div>
-          <div style="color: #555; font-size: 0.8em;">Última modificación por Figma System • hace 1 mes</div>
-        </div>
-      </a>
-    </div>
-  </div>
-</div> -->
 <table align="center">
     <td valign="center">
       <h3>Figma (Files)</h3>
@@ -147,70 +102,6 @@ Este proyecto es el resultado de una prueba técnica desarrollada para **Creativ
 
 </div>
 
-<!-- <div style="margin: 2rem 0rem;">
-  <div style="display: flex; justify-content: space-between;">
-    <div>
-      <strong>Documentación de la API</strong>
-      <div style="display: flex; flex-direction: column; border: 1px solid #ddd; border-radius: 6px;padding: 10px; width: 48.1vw; align-self: flex-start; margin-bottom: 1.5rem; margin-top: 0.5rem;">
-        <a href="https://app.theneo.io/creativedog/c-commerce/" target="_blank" style="text-decoration: none; font-size: 0.9em; display: flex; align-items: center;">
-          <img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fapp.theneo.io%2Ffavicon.ico/size/?exp=1735495101&sig=hVcBUN9YT1BwE9XZwQoypKhswHtEhHjGRK36DPC8hBo" alt="Avatar" style="width: 30.192px; height: 30.192px; border-radius: 50%; margin-right: 12px;">
-          <div>
-            <div style="font-size: 14px; line-height: 20px; color: rgb(55, 53, 47); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-height: 24px; margin-bottom: 2px;">app.theneo.io</div>
-            <div style="font-size: 12px; line-height: 16px; color: rgb(55, 53, 47); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">https://app.theneo.io/creativedog/c-commerce/</div>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div style="display: flex; border: 1px solid #ddd; max-width: 338px; border-radius: 6px; align-self: flex-start;">
-      <table>
-        <thead>
-          <tr>
-            <th colspan=2 style="text-align: center">Usuario de prueba</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>identifier</td>
-            <td>pruebatecnica@creativedog.agency</td>
-          </tr>
-          <tr>
-            <td>password</td>
-            <td>9I@5)22Jbc<{</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-  <strong>Sistema de Diseño</strong>
-  <div style="display: flex; flex-direction: column; border: 1px solid #ddd; border-radius: 6px; align-self: flex-start; max-width: 100vw; margin-bottom: 1.5rem; margin-top: 0.5rem;">
-    <a href="https://bradfrost.com/blog/post/atomic-web-design/" target="_blank" style="text-decoration: none; font-size: 0.9em; display: flex; align-items: center;">
-      <div style="padding: 10px;">
-        <div style="font-size: 14px; line-height: 20px; color: rgb(55, 53, 47); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-height: 24px; margin-bottom: 2px;">Atomic Design</div>
-        <div style="font-size: 12px; line-height: 16px; color: rgba(55, 53, 47, 0.65); height: 32px; overflow: hidden;">Hey there! I wrote a book called Atomic Design that dives into this topic in more detail, which you can buy as an ebook. We’re not designing pages, we’re designing systems of components.—Stephen Hay As the craft of Web design continues to evolve, we're recognizing the need to develop thoughtful desi</div>
-        <div style="display: flex; margin-top: 6px;">
-          <img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fbradfrost.com%2Ffavicon.ico/size/?exp=1735498579&sig=Y4C37zZV4JruF8p2ExvWsZ-I7FSbt_i5jDM1785U430" style="width: 16px; height: 16px; min-width: 16px; margin-right: 6px;">
-          <div style="font-size: 12px; line-height: 16px; color: rgb(55, 53, 47); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">https://bradfrost.com/blog/post/atomic-web-design/</div>
-        </div>
-      </div>
-      <div style="width: 100%; height: 106px;">
-        <img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fbradfrost.com%2Fwp-content%2Fuploads%2F2012%2F11%2FScreen-Shot-2012-11-13-at-5.15.05-PM.png/size/w=500?exp=1735498783&sig=ZHuBE7f7RWGb1r4t4_CLdpvwFR7HCI5rSP_l1fq7bgM" referrerpolicy="same-origin" style="display: block; object-fit: cover; border-radius: 5px; width: 100%; height: 100%;">
-      </div>
-    </a>
-  </div>
-  <strong>Guía de Estilo</strong>
-  <div style="display: flex; flex-direction: column; border: 1px solid #ddd; border-radius: 6px; align-self: flex-start; max-width: 100vw; margin-top: 0.5rem;">
-    <a href="https://airbnb.io/projects/javascript/" target="_blank" style="text-decoration: none; font-size: 0.9em; display: flex; align-items: center;">
-      <div style="padding: 10px;">
-        <div style="font-size: 14px; line-height: 20px; color: rgb(55, 53, 47); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-height: 24px; margin-bottom: 2px;">Airbnb Engineering &amp; Data Science</div>
-        <div style="font-size: 12px; line-height: 16px; color: rgba(55, 53, 47, 0.65); height: 32px; overflow: hidden;">Your first engineer is Picasso during his blue period. Your codebase quickly becomes filled with Picasso blue period javascript files. He paints you a javascript shopping cart without a problem. He's done it a million times before. But this is his best one. It's his masterpiece. And very blue.</div>
-        <div style="display: flex; margin-top: 6px;">
-          <img src="https://img.notionusercontent.com/ext/https%3A%2F%2Fairbnb.io%2Ffavicon.ico/size/?exp=1735502981&sig=4FQP1ufVdkVJ9zVUtH0W63M3wvLjvOfVAHf4SyBAtrY" style="width: 16px; height: 16px; min-width: 16px; margin-right: 6px;">
-          <div style="font-size: 12px; line-height: 16px; color: rgb(55, 53, 47); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">https://airbnb.io/projects/javascript/</div>
-        </div>
-      </div>
-    </a>
-  </div>
-</div> -->
 <table align="center">
     <td valign="center">
       <table>
