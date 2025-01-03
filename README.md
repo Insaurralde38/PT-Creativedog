@@ -1,5 +1,5 @@
 <p align="left">
-    <img src="./public/assets/images/readme/insa-logo.png" height="50" alt="Insa Logo">
+    <img src="https://creativedog.agency/site/wp-content/uploads/2021/09/logo-cd-13.png" height="64" alt="Creativedog Logo">
 </p>
 
 # Prueba Técnica | [**Creativedog**](https://creativedog-insa.vercel.app/)
@@ -14,7 +14,7 @@
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat-square&logo=javascript)
 ![HTML5](https://img.shields.io/badge/-HTML5-E46625?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-663399?style=flat-square&logo=css)
+![CSS](https://img.shields.io/badge/-CSS-663399?style=flat-square&logo=css)
 [![React](https://img.shields.io/badge/-React-000000?style=flat-square&logo=react&link=https://es.react.dev/)](https://es.react.dev/)
 [![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&link=https://nextjs.org/)](https://nextjs.org/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7C01FD?style=flat-square&logo=bootstrap&logoColor=white&link=https://getbootstrap.com/)](https://getbootstrap.com/)
